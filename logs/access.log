@@ -1,0 +1,67 @@
+undefined GET /api/blogss function getStatusToken (req, res) {
+  return headersSent(res)
+    ? String(res.statusCode)
+    : undefined
+} (req, res) => res.locals.errorMessage || '' Wed Jun 11 2025 17:06:52 GMT+0300 (East Africa Time)
+remote-addr - GET /api/blogss function getStatusToken (req, res) {
+  return headersSent(res)
+    ? String(res.statusCode)
+    : undefined
+} (req, res) => res.locals.errorMessage || '' Wed Jun 11 2025 19:04:25 GMT+0300 (East Africa Time)
+remote-addr - GET /blogs 200 undefined ms Thunder Client (https://www.thunderclient.com) Wed Jun 11 2025 19:06:45 GMT+0300 (East Africa Time)
+remote-addr - GET /api/blogss function getStatusToken (req, res) {
+  return headersSent(res)
+    ? String(res.statusCode)
+    : undefined
+} (req, res) => res.locals.errorMessage || '' Wed Jun 11 2025 19:06:59 GMT+0300 (East Africa Time)
+remote-addr - GET /blogs 200 undefined ms Thunder Client (https://www.thunderclient.com) Wed Jun 11 2025 19:52:18 GMT+0300 (East Africa Time)
+remote-addr - GET /api/blogss function getStatusToken (req, res) {
+  return headersSent(res)
+    ? String(res.statusCode)
+    : undefined
+} (req, res) => res.locals.errorMessage || '' Wed Jun 11 2025 19:53:17 GMT+0300 (East Africa Time)
+remote-addr - POST /api/blogs function getStatusToken (req, res) {
+  return headersSent(res)
+    ? String(res.statusCode)
+    : undefined
+} (req, res) => res.locals.errorMessage || '' Wed Jun 11 2025 19:54:41 GMT+0300 (East Africa Time)
+remote-addr - GET /api/blogs 200 48.298 ms Thunder Client (https://www.thunderclient.com) Wed, 11 Jun 2025 17:09:49 GMT
+remote-addr - POST /api/blogs 400 4.576 ms Thunder Client (https://www.thunderclient.com)  Wed, 11 Jun 2025 17:09:55 GMT -error-message: "body.title" must be a string
+remote-addr - GET /api/blogs 500 32.315 ms Thunder Client (https://www.thunderclient.com)  Wed, 11 Jun 2025 18:45:17 GMT -error-message: Invalid status code: undefined. Status code must be an integer.
+remote-addr - GET /api/blogs 500 55.662 ms Thunder Client (https://www.thunderclient.com)  Wed, 11 Jun 2025 18:46:22 GMT -error-message: Invalid status code: undefined. Status code must be an integer.
+remote-addr - GET /api/blogs 500 37.869 ms Thunder Client (https://www.thunderclient.com)  Wed, 11 Jun 2025 18:49:39 GMT -error-message: Invalid status code: undefined. Status code must be an integer.
+remote-addr - GET /api/blogs 500 21.122 ms Thunder Client (https://www.thunderclient.com)  Wed, 11 Jun 2025 18:50:25 GMT -error-message: Invalid status code: undefined. Status code must be an integer.
+remote-addr - GET /api/blogs 500 23.706 ms Thunder Client (https://www.thunderclient.com)  Wed, 11 Jun 2025 18:58:02 GMT -error-message: Invalid status code: undefined. Status code must be an integer.
+remote-addr - GET /api/blogs 500 34.234 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 03:33:37 GMT -error-message: Invalid status code: undefined. Status code must be an integer.
+remote-addr - GET /api/blogs 500 19.730 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 03:34:59 GMT -error-message: Invalid status code: undefined. Status code must be an integer.
+remote-addr - GET /api/blogs 500 17.936 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 03:35:32 GMT -error-message: blogs is not defined
+remote-addr - GET /api/blogss 404 40.380 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 03:55:26 GMT -error-message: Not found
+remote-addr - GET /api/blogs 200 34.394 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 04:00:05 GMT
+remote-addr - GET /api/blogs 200 20.536 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 04:00:39 GMT
+remote-addr - GET /api/blogs 200 23.002 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 04:01:42 GMT
+remote-addr - POST /api/auth/login 404 129.910 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 12:17:54 GMT -error-message: Not found
+remote-addr - POST /api/auth/signup 404 2.897 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 12:19:16 GMT -error-message: Not found
+remote-addr - POST /api/auth/signup 404 4.370 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 12:20:23 GMT -error-message: Not found
+remote-addr - POST /api/auth/signup 404 7.107 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 12:21:43 GMT -error-message: Not found
+remote-addr - POST /api/auth/signup 404 11.363 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 12:39:13 GMT -error-message: Not found
+remote-addr - POST /api/auth/signup 400 50.740 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:02:40 GMT -error-message: -
+remote-addr - POST /api/auth/signup 400 279.632 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:07:45 GMT -error-message: -
+remote-addr - POST /api/auth/signup 400 60.077 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:10:28 GMT -error-message: -
+remote-addr - POST /api/auth/signup 400 180.063 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:10:37 GMT -error-message: -
+remote-addr - POST /api/auth/signup 400 64.962 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:12:08 GMT -error-message: -
+remote-addr - POST /api/auth/signup 400 1871.564 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:12:15 GMT -error-message: -
+remote-addr - POST /api/auth/signup 400 37.095 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:17:20 GMT -error-message: -
+remote-addr - POST /api/auth/signup 201 33381.512 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 13:18:04 GMT
+remote-addr - POST /api/auth/signup 201 3082.591 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 13:19:29 GMT
+remote-addr - POST /api/auth/verify-email 400 35.787 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:20:55 GMT -error-message: "body.email" is not allowed
+remote-addr - POST /api/auth/verify-email 500 15117.187 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:21:20 GMT -error-message: -
+remote-addr - POST /api/auth/verify-email 400 10.552 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:21:43 GMT -error-message: -
+remote-addr - POST /api/auth/forgot-password 400 31265.894 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:23:55 GMT -error-message: -
+remote-addr - POST /api/auth/forgot-password 200 2582.075 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 13:25:55 GMT
+remote-addr - POST /api/auth/reset-password/fde12050c31939aac99113133b6efa78f102a093 400 38.502 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:27:18 GMT -error-message: "body.password" length must be at least 6 characters long
+remote-addr - POST /api/auth/reset-password/fde12050c31939aac99113133b6efa78f102a093 200 2939.794 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 13:27:29 GMT
+remote-addr - POST /api/auth/login 500 28.371 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:27:55 GMT -error-message: Expected ',' or '}' after property value in JSON at position 69
+remote-addr - POST /api/auth/login 400 4.740 ms Thunder Client (https://www.thunderclient.com)  Thu, 12 Jun 2025 13:28:18 GMT -error-message: "body.password" length must be at least 6 characters long
+remote-addr - POST /api/auth/login 200 149.340 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 13:28:23 GMT
+remote-addr - POST /api/auth/login 200 233.364 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 16:01:36 GMT
+remote-addr - POST /api/auth/login 200 215.588 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 16:11:45 GMT
