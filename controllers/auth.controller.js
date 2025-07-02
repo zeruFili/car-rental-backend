@@ -45,12 +45,17 @@ const verifyEmail = catchAsync(async (req, res) => {
 const login = catchAsync(async (req, res) => {
   const { email, password } = req.body;
 
+  // Attempt to log in the user and get user info and tokens
   const { user, accessToken, refreshToken } = await authService.loginUser(email, password);
+
+  // Set cookies with tokens
   setCookies(res, accessToken, refreshToken);
 
+  // Respond with user info and tokens
   res.status(httpStatus.default.OK).json({
     success: true,
     message: "Logged in successfully",
+    accessToken,  // Optionally include the refresh token if needed
     user: {
       _id: user._id,
       first_name: user.first_name,

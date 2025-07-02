@@ -168,3 +168,13 @@ remote-addr - GET /api/cars 200 306.204 ms Mozilla/5.0 (Windows NT 10.0; Win64; 
 remote-addr - GET /api/user/checkauth 500 53.615 ms Thunder Client (https://www.thunderclient.com)  Wed, 02 Jul 2025 15:07:44 GMT -error-message: Not found
 remote-addr - GET /api/user/checkauth 401 33.942 ms Thunder Client (https://www.thunderclient.com)  Wed, 02 Jul 2025 15:08:22 GMT -error-message: -
 remote-addr - GET /api/user/checkauth 401 1.365 ms Thunder Client (https://www.thunderclient.com)  Wed, 02 Jul 2025 15:08:25 GMT -error-message: -
+remote-addr - GET /api/cars 200 45.359 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 16:06:33 GMT
+remote-addr - POST /api/user/login 500 264.533 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 02 Jul 2025 16:07:36 GMT -error-message: Invalid credentials
+remote-addr - POST /api/user/login 200 242.368 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 16:08:22 GMT
+remote-addr - POST /api/user/login 200 113.053 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 16:08:49 GMT
+remote-addr - POST /api/user/login 200 196.272 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 16:09:58 GMT
+remote-addr - GET /api/cars 304 97.852 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 16:15:26 GMT
+remote-addr - GET /api/cars 304 112.333 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 16:16:33 GMT
+remote-addr - POST /api/user/login 500 423.022 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 02 Jul 2025 16:17:06 GMT -error-message: Invalid status code: undefined. Status code must be an integer.
+remote-addr - POST /api/user/login 200 229.834 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 16:17:30 GMT
+remote-addr - GET /api/cars 304 15.734 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 16:17:30 GMT
