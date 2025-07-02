@@ -1,16 +1,24 @@
-const Car = require('../models/Car'); // Adjust the path as necessary
+const Car = require('../models/car.model'); // Adjust the path as necessary
 
 // Create a new car
 exports.createCar = async (req, res) => {
   try {
+    const files = req.files;
+    console.log("Files:", files);
+
+    
+
     const car = new Car({
       ...req.body,
-      owner: req.user._id, // Associate the user ID with the car
+      photos: files.map((file) => `${file.filename}`),
+      owner: req.user._id,
     });
+
     await car.save();
     res.status(201).json(car);
   } catch (error) {
     res.status(400).json({ message: error.message });
+    console.log(error);
   }
 };
 

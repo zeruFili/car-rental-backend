@@ -65,3 +65,106 @@ remote-addr - POST /api/auth/login 400 4.740 ms Thunder Client (https://www.thun
 remote-addr - POST /api/auth/login 200 149.340 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 13:28:23 GMT
 remote-addr - POST /api/auth/login 200 233.364 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 16:01:36 GMT
 remote-addr - POST /api/auth/login 200 215.588 ms Thunder Client (https://www.thunderclient.com) Thu, 12 Jun 2025 16:11:45 GMT
+remote-addr - POST /api/user/login 404 169.989 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 22:00:43 GMT -error-message: Not found
+remote-addr - POST /api/users/login 404 3.759 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 22:00:51 GMT -error-message: Not found
+remote-addr - POST /api/auth/login 500 164.889 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 22:01:22 GMT -error-message: Invalid credentials
+remote-addr - POST /api/auth/login 500 263.581 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 22:02:08 GMT -error-message: res.cookie is not a function
+remote-addr - POST /api/auth/login 500 142.406 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 22:04:45 GMT -error-message: res.cookie is not a function
+remote-addr - POST /api/auth/login 500 147.697 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 22:07:19 GMT -error-message: res.cookie is not a function
+remote-addr - POST /api/auth/login 500 166.897 ms Thunder Client (https://www.thunderclient.com)  Sun, 29 Jun 2025 22:11:51 GMT -error-message: res.cookie is not a function
+remote-addr - POST /api/auth/login 500 137.320 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 22:13:16 GMT -error-message: res.cookie is not a function
+remote-addr - POST /api/auth/login 500 31.672 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 22:14:21 GMT -error-message: authService.loginUser is not a function
+remote-addr - POST /api/auth/login 500 228.582 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 22:15:59 GMT -error-message: secretOrPrivateKey must have a value
+remote-addr - POST /api/auth/login 500 120.945 ms Thunder Client (https://www.thunderclient.com)  Sun, 29 Jun 2025 22:44:05 GMT -error-message: secretOrPrivateKey must have a value
+remote-addr - POST /api/auth/login 500 76.420 ms Thunder Client (https://www.thunderclient.com)  Sun, 29 Jun 2025 22:46:17 GMT -error-message: secretOrPrivateKey must have a value
+remote-addr - POST /api/auth/login 200 142.324 ms Thunder Client (https://www.thunderclient.com) Sun, 29 Jun 2025 22:46:38 GMT
+remote-addr - POST /api/auth/login 200 172.121 ms PostmanRuntime/7.39.1 Sun, 29 Jun 2025 22:57:18 GMT
+remote-addr - POST /api/car 404 44.027 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:01:20 GMT -error-message: Not found
+remote-addr - POST /api/cars 400 58.714 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:01:31 GMT -error-message: -
+remote-addr - POST /api/cars 400 42.742 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:04:23 GMT -error-message: -
+remote-addr - POST /api/cars 400 36.665 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:05:18 GMT -error-message: -
+remote-addr - POST /api/cars 400 41.735 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:06:14 GMT -error-message: -
+remote-addr - POST /api/cars 400 51.292 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:07:36 GMT -error-message: -
+remote-addr - POST /api/cars 400 11.123 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:07:48 GMT -error-message: -
+remote-addr - POST /api/cars 400 27.731 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:08:16 GMT -error-message: -
+remote-addr - POST /api/cars 400 100.772 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:09:07 GMT -error-message: -
+remote-addr - POST /api/cars 400 10.776 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:09:28 GMT -error-message: -
+remote-addr - POST /api/cars 400 14.864 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:11:05 GMT -error-message: -
+remote-addr - POST /api/cars 401 0.490 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:13:29 GMT -error-message: -
+remote-addr - POST /api/auth/login 200 208.267 ms Thunder Client (https://www.thunderclient.com) Sun, 29 Jun 2025 23:13:45 GMT
+remote-addr - POST /api/cars 401 0.457 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:14:39 GMT -error-message: -
+remote-addr - POST /api/cars 401 2.908 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:14:40 GMT -error-message: -
+remote-addr - POST /api/cars 401 0.719 ms PostmanRuntime/7.39.1  Sun, 29 Jun 2025 23:15:40 GMT -error-message: -
+remote-addr - POST /api/auth/login 200 283.961 ms PostmanRuntime/7.39.1 Mon, 30 Jun 2025 11:05:59 GMT
+remote-addr - POST /api/cars 400 40.866 ms PostmanRuntime/7.39.1  Mon, 30 Jun 2025 11:06:37 GMT -error-message: -
+remote-addr - POST /api/cars 400 13.136 ms PostmanRuntime/7.39.1  Mon, 30 Jun 2025 11:07:08 GMT -error-message: -
+remote-addr - POST /api/cars 400 8.343 ms PostmanRuntime/7.39.1  Mon, 30 Jun 2025 11:07:46 GMT -error-message: -
+remote-addr - POST /api/cars 400 10.020 ms PostmanRuntime/7.39.1  Mon, 30 Jun 2025 11:08:35 GMT -error-message: -
+remote-addr - POST /api/car 404 31.632 ms PostmanRuntime/7.39.1  Mon, 30 Jun 2025 11:08:42 GMT -error-message: Not found
+remote-addr - POST /api/cars 400 7.446 ms PostmanRuntime/7.39.1  Mon, 30 Jun 2025 11:09:05 GMT -error-message: -
+remote-addr - POST /api/cars 400 11.857 ms PostmanRuntime/7.39.1  Mon, 30 Jun 2025 11:09:17 GMT -error-message: -
+remote-addr - POST /api/cars 400 38.357 ms PostmanRuntime/7.39.1  Mon, 30 Jun 2025 11:10:15 GMT -error-message: -
+remote-addr - POST /api/cars 400 11.146 ms PostmanRuntime/7.39.1  Mon, 30 Jun 2025 11:10:52 GMT -error-message: -
+remote-addr - POST /api/user/login 404 31.498 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:23:19 GMT -error-message: Not found
+remote-addr - POST /api/auth/login 500 77.235 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:23:31 GMT -error-message: Invalid credentials
+remote-addr - POST /api/auth/login 200 245.758 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 02:23:45 GMT
+remote-addr - POST /api/car 404 11.893 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:26:49 GMT -error-message: Not found
+remote-addr - POST /api/cars 400 46.195 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:27:02 GMT -error-message: -
+remote-addr - POST /api/cars 400 29.227 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:27:59 GMT -error-message: -
+remote-addr - POST /api/cars 400 73.751 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:34:55 GMT -error-message: -
+remote-addr - POST /api/cars 400 65.177 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:35:41 GMT -error-message: -
+remote-addr - POST /api/cars 400 53.987 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:38:10 GMT -error-message: -
+remote-addr - POST /api/cars 401 3.674 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:39:39 GMT -error-message: -
+remote-addr - POST /api/auth/login 200 193.109 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 02:39:58 GMT
+remote-addr - POST /api/cars 400 31.428 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:40:11 GMT -error-message: -
+remote-addr - POST /api/cars 400 87.316 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:44:57 GMT -error-message: -
+remote-addr - POST /api/cars 201 63.567 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 02:45:48 GMT
+remote-addr - POST /api/cars 201 20.300 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 02:45:50 GMT
+remote-addr - POST /api/cars 201 73.523 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 02:47:39 GMT
+remote-addr - POST /api/cars 201 30.476 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 02:47:40 GMT
+remote-addr - POST /api/cars 201 60.545 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 02:49:04 GMT
+remote-addr - POST /api/cars 201 24.724 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 02:49:05 GMT
+remote-addr - POST /api/cars 201 18.840 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 02:49:06 GMT
+remote-addr - POST /api/cars 400 38.818 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:49:35 GMT -error-message: -
+remote-addr - POST /api/cars 400 15.687 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:49:36 GMT -error-message: -
+remote-addr - POST /api/cars 400 11.621 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 02:49:36 GMT -error-message: -
+remote-addr - POST /api/cars 201 89.741 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 02:50:04 GMT
+remote-addr - POST /api/cars 201 29.384 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 02:50:49 GMT
+remote-addr - POST /api/auth/login 200 249.954 ms Thunder Client (https://www.thunderclient.com) Wed, 02 Jul 2025 03:06:38 GMT
+remote-addr - POST /api/rent 201 76.385 ms Thunder Client (https://www.thunderclient.com) Wed, 02 Jul 2025 03:08:31 GMT
+remote-addr - POST /api/rent 401 37.676 ms Thunder Client (https://www.thunderclient.com)  Wed, 02 Jul 2025 03:24:21 GMT -error-message: -
+remote-addr - POST /api/auth/login 200 231.794 ms Thunder Client (https://www.thunderclient.com) Wed, 02 Jul 2025 03:25:03 GMT
+remote-addr - POST /api/rent 200 2327.529 ms Thunder Client (https://www.thunderclient.com) Wed, 02 Jul 2025 03:25:16 GMT
+remote-addr - POST /api/rent 200 2293.191 ms Thunder Client (https://www.thunderclient.com) Wed, 02 Jul 2025 03:28:36 GMT
+remote-addr - POST /api/auth/login 200 237.626 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 11:35:40 GMT
+remote-addr - POST /api/cars 400 30.815 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 11:35:56 GMT -error-message: -
+remote-addr - POST /api/cars 201 85.464 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 11:36:34 GMT
+remote-addr - POST /api/cars 201 31.857 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 11:44:16 GMT
+remote-addr - POST /api/cars 201 102.039 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 11:45:18 GMT
+remote-addr - POST /api/cars 201 66.168 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 11:48:10 GMT
+remote-addr - POST /api/cars 201 16.012 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 11:49:38 GMT
+remote-addr - POST /api/cars 401 0.944 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 11:50:47 GMT -error-message: -
+remote-addr - POST /api/cars 401 2.468 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 11:51:17 GMT -error-message: -
+remote-addr - POST /api/cars 401 0.775 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 11:51:38 GMT -error-message: -
+remote-addr - POST /api/auth/login 200 155.389 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 11:51:46 GMT
+remote-addr - POST /api/cars 201 14.268 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 11:51:57 GMT
+remote-addr - GET /api/cars 200 15.686 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 11:53:34 GMT
+remote-addr - GET /api/cars 200 7.327 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 11:53:40 GMT
+remote-addr - GET /api/cars 200 20.429 ms Thunder Client (https://www.thunderclient.com) Wed, 02 Jul 2025 11:53:53 GMT
+remote-addr - POST /api/cars 201 366.244 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 12:00:56 GMT
+remote-addr - POST /api/cars 201 109.764 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 12:03:21 GMT
+remote-addr - POST /api/cars 401 0.971 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 12:07:41 GMT -error-message: -
+remote-addr - POST /api/auth/login 200 253.605 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 12:08:16 GMT
+remote-addr - POST /api/cars 400 10.228 ms PostmanRuntime/7.39.1  Wed, 02 Jul 2025 12:08:20 GMT -error-message: -
+remote-addr - POST /api/cars 201 69.612 ms PostmanRuntime/7.39.1 Wed, 02 Jul 2025 12:08:38 GMT
+remote-addr - GET /api/cars 200 125.248 ms Thunder Client (https://www.thunderclient.com) Wed, 02 Jul 2025 12:16:08 GMT
+remote-addr - OPTIONS /api/cars 200 27.031 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 12:38:24 GMT
+remote-addr - GET /api/cars 200 39.585 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 12:40:32 GMT
+remote-addr - GET /api/cars 304 237.224 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 12:56:03 GMT
+remote-addr - GET /api/cars 304 79.884 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 13:06:02 GMT
+remote-addr - GET /api/cars 304 70.367 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 13:14:40 GMT
+remote-addr - GET /api/cars 304 268.681 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 13:21:43 GMT
+remote-addr - GET /api/cars 200 306.204 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 02 Jul 2025 14:28:56 GMT
+remote-addr - GET /api/user/checkauth 500 53.615 ms Thunder Client (https://www.thunderclient.com)  Wed, 02 Jul 2025 15:07:44 GMT -error-message: Not found
+remote-addr - GET /api/user/checkauth 401 33.942 ms Thunder Client (https://www.thunderclient.com)  Wed, 02 Jul 2025 15:08:22 GMT -error-message: -
+remote-addr - GET /api/user/checkauth 401 1.365 ms Thunder Client (https://www.thunderclient.com)  Wed, 02 Jul 2025 15:08:25 GMT -error-message: -

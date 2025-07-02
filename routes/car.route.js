@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const carController = require('../controllers/carController'); // Adjust the path as necessary
+const carController = require('../controllers/car.controller'); // Adjust the path as necessary
 const { protect } = require('../middleware/authMiddleware'); // Middleware to protect routes
-const { uploadFileMiddleware } = require("./uploadMiddleware");
+const { uploadFileMiddleware } = require("../middleware/uploadMiddleware");
 
 // Create a new car record
 router.post('/', protect, uploadFileMiddleware, carController.createCar);
@@ -17,9 +17,9 @@ router.put('/:id/status/pending', protect, carController.updateCarStatusToPendin
 router.delete('/:id', protect, carController.deleteCar);
 
 // View all cars
-router.get('/', protect, carController.getAllCars);
+router.get('/',  carController.getAllCars); // Ensure this is the only instance
 
 // Get a car by ID
-router.get('/:id', protect, carController.getCarById);
+router.get('/:id',  carController.getCarById);
 
 module.exports = router;
