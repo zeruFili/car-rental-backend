@@ -7,7 +7,7 @@ A car rental platform that connects renters and users who want to rent a car.
 
 - **Create Cars**: Add new cars with options to update and delete. The functionality includes a payment integration with Chapa.
 - **User Authentication**:  Users can log in using their credentials. This includes verification for car owners and license validation for both owners and renters.
-
+- **Booking Management**: Users can book cars, view their booking history, and manage reservations.
 ## Installation
 
 To use the car rental backend, clone the repository and install any required dependencies:
