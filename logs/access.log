@@ -363,3 +363,6 @@ remote-addr - POST /api/rent/ 200 885.332 ms Thunder Client (https://www.thunder
 remote-addr - POST /api/rent/ 401 27.897 ms Thunder Client (https://www.thunderclient.com)  Sat, 19 Jul 2025 12:28:29 GMT -error-message: -
 remote-addr - POST /api/user/login 200 193.330 ms Thunder Client (https://www.thunderclient.com) Sat, 19 Jul 2025 12:28:43 GMT
 remote-addr - POST /api/rent 200 838.327 ms Thunder Client (https://www.thunderclient.com) Sat, 19 Jul 2025 12:29:04 GMT
+remote-addr - GET /api/rent 200 105.167 ms Thunder Client (https://www.thunderclient.com) Sat, 19 Jul 2025 12:38:55 GMT
+remote-addr - GET /api/rent 401 49.586 ms Thunder Client (https://www.thunderclient.com)  Sat, 19 Jul 2025 12:51:47 GMT -error-message: -
+remote-addr - GET /api/rent 200 88.741 ms Thunder Client (https://www.thunderclient.com) Sat, 19 Jul 2025 12:52:14 GMT

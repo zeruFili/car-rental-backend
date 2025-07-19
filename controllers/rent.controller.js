@@ -102,7 +102,11 @@ exports.createRental = async (req, res) => {
 
 exports.getAllRentals = async (req, res) => {
   try {
-    const rentals = await Rental.find().populate('car user owner');
+    const rentals = await Rental.find()
+      .populate({
+        path: 'car user owner',
+        select: 'first_name last_name phone_number', // Select only the desired fields
+      });
     res.status(200).json(rentals);
   } catch (error) {
     res.status(400).json({ message: error.message });
