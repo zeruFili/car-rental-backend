@@ -12,9 +12,5 @@ router.get('/', protect, rentalController.getAllRentals);
 // Get a rental by ID
 router.get('/:id', protect, rentalController.getRentalById);
 
-// Update rental status
-router.put('/:id/status', protect, rentalController.updateRentalStatus);
-
-// Additional routes for deleting rentals can be added here
 
 module.exports = router;

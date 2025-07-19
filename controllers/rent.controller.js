@@ -121,30 +121,3 @@ exports.getRentalById = async (req, res) => {
   }
 };
 
-
-exports.updateRentalStatus = async (req, res) => {
-  try {
-    const { status } = req.body;
-    const validStatuses = ['pending', 'completed', 'canceled'];
-
-    // Validate status
-    if (!validStatuses.includes(status)) {
-      return res.status(400).json({ message: 'Invalid status value.' });
-    }
-
-    const rental = await Rental.findByIdAndUpdate(
-      req.params.id,
-      { status },
-      { new: true } // Return the updated rental
-    );
-
-    if (!rental) {
-      return res.status(404).json({ message: 'Rental not found.' });
-    }
-
-    res.status(200).json(rental);
-  } catch (error) {
-    res.status(400).json({ message: error.message });
-    console.log(error);
-  }
-};
