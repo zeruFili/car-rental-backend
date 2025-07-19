@@ -1,11 +1,12 @@
 const Rental = require("../models/rental.model.js"); // Require the Rental model
 const Car = require("../models/car.model.js"); // Require the Car model
+const User = require("../models/user.model.js"); // Require the User model
 const request = require("request"); // Import for making HTTP requests
 
 exports.createRental = async (req, res) => {
   try {
     const { carId, startDate, endDate } = req.body; // Take rental details from the request body
-    console.log("User email:", req.user.email);
+    const userId = req.user._id; // Get user ID from the request
 
     // Validate carId
     if (!carId) {
@@ -16,6 +17,12 @@ exports.createRental = async (req, res) => {
     const car = await Car.findById(carId);
     if (!car) {
       return res.status(404).json({ error: "Car not found" });
+    }
+
+    // Fetch user details
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
     }
 
     // Calculate total price based on pricePerDay and rental duration
@@ -35,12 +42,12 @@ exports.createRental = async (req, res) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        amount: (totalPrice * 100).toString(), // Convert total amount to cents for Chapa
-        currency: 'ETB', // Adjust currency as needed
-        email: req.user.email,
-        first_name: req.user.first_name,
-        last_name: req.user.last_name,
-        phone_number: req.user.phone_number,
+        amount: (totalPrice).toString(), 
+        currency: 'ETB',
+        email: user.email,
+        first_name: user.first_name,
+        last_name: user.last_name,
+        phone_number: user.phone_number,
         tx_ref: tx_ref,
         callback_url: `http://localhost:3002/api/payment/verify/${tx_ref}`, // Adjust as needed
         meta: {
@@ -64,10 +71,16 @@ exports.createRental = async (req, res) => {
         // Create rental document after successful payment initialization
         const rental = new Rental({
           car: carId,
-          user: req.user._id,
+          user: userId,
+          owner: car.owner, // Assuming car.owner is available
           startDate,
           endDate,
           totalPrice,
+          payment: {
+            amount: totalPrice,
+            currency: 'ETB',
+            transactionId: tx_ref,
+          },
         });
 
         await rental.save();
@@ -89,7 +102,7 @@ exports.createRental = async (req, res) => {
 
 exports.getAllRentals = async (req, res) => {
   try {
-    const rentals = await Rental.find().populate('car user');
+    const rentals = await Rental.find().populate('car user owner');
     res.status(200).json(rentals);
   } catch (error) {
     res.status(400).json({ message: error.message });
@@ -98,7 +111,7 @@ exports.getAllRentals = async (req, res) => {
 
 exports.getRentalById = async (req, res) => {
   try {
-    const rental = await Rental.findById(req.params.id).populate('car user');
+    const rental = await Rental.findById(req.params.id).populate('car user owner');
     if (!rental) {
       return res.status(404).json({ message: 'Rental not found.' });
     }
@@ -107,6 +120,7 @@ exports.getRentalById = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
+
 
 exports.updateRentalStatus = async (req, res) => {
   try {

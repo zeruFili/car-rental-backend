@@ -34,7 +34,7 @@ router.post("/signup", validate(signupSchema), signup);
 router.post("/login", validate(loginSchema), login);
 
 // Check authentication status
-router.get("/checkauth", protect, checkAuth); // Add the checkAuth route
+router.get("//check-auth", protect, checkAuth); // Add the checkAuth route
 
 // Get user profile
 router.get("/profile", protect, getMyProfile);

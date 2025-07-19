@@ -13,6 +13,11 @@ const cookieParser = require("cookie-parser");
 // Use CORS middleware
 app.use(cors()); // Enable CORS for all routes
 
+app.use((req, res, next) => {
+  console.log(`Requested Route: ${req.method} ${req.originalUrl}`);
+  next();
+});
+
 app.use(successHandler);
 app.use(errorHandlers);
 
@@ -28,7 +33,8 @@ app.use('/api/rent', rentRouter);
 
 // Handle unknown routes
 app.use((req, res, next) => {
-  next(new ApiError(httpStatus.NOT_FOUND, 'Not found'));
+  console.log(`Requested Route: ${req.method} ${req.originalUrl}`);
+  next(new ApiError(httpStatus.default.NOT_FOUND, 'Not found'));
 });
 
 // Error handling middleware
