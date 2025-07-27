@@ -27,6 +27,11 @@ const userSchema = new mongoose.Schema(
 			type: Boolean,
 			default: false,
 		},
+		phone_number: {
+			type: String,
+			required: true, 
+			unique: true,   
+		},
 		resetPasswordToken: String,
 		resetPasswordExpiresAt: Date,
 		verificationToken: String,
