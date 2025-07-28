@@ -366,3 +366,471 @@ remote-addr - POST /api/rent 200 838.327 ms Thunder Client (https://www.thunderc
 remote-addr - GET /api/rent 200 105.167 ms Thunder Client (https://www.thunderclient.com) Sat, 19 Jul 2025 12:38:55 GMT
 remote-addr - GET /api/rent 401 49.586 ms Thunder Client (https://www.thunderclient.com)  Sat, 19 Jul 2025 12:51:47 GMT -error-message: -
 remote-addr - GET /api/rent 200 88.741 ms Thunder Client (https://www.thunderclient.com) Sat, 19 Jul 2025 12:52:14 GMT
+remote-addr - GET /api/cars 200 463.234 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 13:42:37 GMT
+remote-addr - POST /api/user/login 200 583.973 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 13:43:43 GMT
+remote-addr - GET /api/cars 304 22.560 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 13:43:43 GMT
+remote-addr - POST /api/rent 401 5.778 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Sat, 19 Jul 2025 13:44:06 GMT -error-message: -
+remote-addr - POST /api/rent 401 2.778 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Sat, 19 Jul 2025 13:44:12 GMT -error-message: -
+remote-addr - POST /api/rent 401 1.555 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Sat, 19 Jul 2025 13:44:16 GMT -error-message: -
+remote-addr - POST /api/rent 200 1316.129 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 13:46:06 GMT
+remote-addr - POST /api/rent 200 609.643 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 13:46:29 GMT
+remote-addr - POST /api/rent 200 907.635 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 13:51:55 GMT
+remote-addr - POST /api/rent 200 605.860 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 13:52:27 GMT
+remote-addr - GET /api/user//check-auth 401 50.689 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Sat, 19 Jul 2025 14:12:13 GMT -error-message: -
+remote-addr - GET /api/cars 304 149.152 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:12:15 GMT
+remote-addr - GET /api/cars 304 17.896 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:12:15 GMT
+remote-addr - POST /api/rent 401 34.605 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Sat, 19 Jul 2025 14:12:26 GMT -error-message: -
+remote-addr - GET /api/cars 304 11.184 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:12:53 GMT
+remote-addr - POST /api/user/login 200 314.104 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:13:29 GMT
+remote-addr - GET /api/cars 304 11.323 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:13:29 GMT
+remote-addr - POST /api/rent 200 1098.192 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:13:36 GMT
+remote-addr - GET /api/cars 304 9.610 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:13:53 GMT
+remote-addr - GET /api/user//check-auth 200 283.153 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:16:27 GMT
+remote-addr - GET /api/cars 304 74.263 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:16:28 GMT
+remote-addr - GET /api/cars 304 10.298 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:16:28 GMT
+remote-addr - POST /api/rent 200 771.439 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:16:35 GMT
+remote-addr - GET /api/cars 304 20.290 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Sat, 19 Jul 2025 14:16:43 GMT
+remote-addr - POST /api/user/login 200 193.225 ms Thunder Client (https://www.thunderclient.com) Sat, 19 Jul 2025 15:30:56 GMT
+remote-addr - POST /api/user/login 400 24.355 ms Thunder Client (https://www.thunderclient.com)  Sat, 19 Jul 2025 15:31:24 GMT -error-message: "body.email" is required
+remote-addr - POST /api/user/login 200 394.441 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 08:46:16 GMT
+remote-addr - POST /api/user/login 500 341.322 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 08:50:55 GMT -error-message: Invalid credentials
+remote-addr - POST /api/user/login 200 138.985 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 08:51:10 GMT
+remote-addr - POST /api/user/login 500 128.554 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 08:51:26 GMT -error-message: Invalid credentials
+remote-addr - POST /api/user/login 200 158.134 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 08:51:53 GMT
+remote-addr - POST /api/rent 200 1138.922 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 08:52:38 GMT
+remote-addr - POST /api/rent 200 1249.458 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 08:53:02 GMT
+remote-addr - POST /api/rent 200 1280.430 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 08:55:42 GMT
+remote-addr - POST /api/rent 200 1163.127 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 08:59:23 GMT
+remote-addr - POST /api/rent 200 645.538 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 08:59:32 GMT
+remote-addr - POST /api/rent 200 1020.102 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 08:59:43 GMT
+remote-addr - POST /api/user/login 200 254.665 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 09:00:32 GMT
+remote-addr - POST /api/rent/renter 404 25.916 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:01:02 GMT -error-message: Not found
+remote-addr - GET /api/rent/renter 401 2.837 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:01:18 GMT -error-message: -
+remote-addr - GET /api/rent/renter 401 3.311 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:03:07 GMT -error-message: -
+remote-addr - POST /api/user/login 200 163.505 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 09:03:31 GMT
+remote-addr - GET /api/rent/renter 400 34.693 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:03:42 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 12.134 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:05:20 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 8.175 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:05:22 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 122.409 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:09:02 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 27.970 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:09:09 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 21.976 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:09:45 GMT -error-message: -
+remote-addr - GET /api/rent/renters 400 16.444 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:10:25 GMT -error-message: -
+remote-addr - GET /api/rent/rentersss 400 23.272 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:10:31 GMT -error-message: -
+remote-addr - POST /api/user/login 200 231.119 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 09:11:17 GMT
+remote-addr - GET /api/rent/renter 400 12.801 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:11:29 GMT -error-message: -
+remote-addr - GET /api/rent/renterooo 400 16.391 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:12:14 GMT -error-message: -
+remote-addr - POST /api/user/login 200 192.125 ms PostmanRuntime/7.39.1 Mon, 21 Jul 2025 09:12:43 GMT
+remote-addr - GET /api/rent/renter 400 8.407 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:12:57 GMT -error-message: -
+remote-addr - GET /api/rent/renterooo 400 11.033 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:13:12 GMT -error-message: -
+remote-addr - POST /api/user/login 200 166.241 ms PostmanRuntime/7.39.1 Mon, 21 Jul 2025 09:13:27 GMT
+remote-addr - POST /api/user/login 200 160.734 ms PostmanRuntime/7.39.1 Mon, 21 Jul 2025 09:13:37 GMT
+remote-addr - POST /api/user/login 200 158.757 ms PostmanRuntime/7.39.1 Mon, 21 Jul 2025 09:13:45 GMT
+remote-addr - POST /api/user/login 200 165.325 ms PostmanRuntime/7.39.1 Mon, 21 Jul 2025 09:13:55 GMT
+remote-addr - POST /api/rent/renter 404 7.124 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:14:15 GMT -error-message: Not found
+remote-addr - GET /api/rent/renter 400 7.300 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:15:18 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 94.382 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:15:59 GMT -error-message: -
+remote-addr - POST /api/user/login 200 179.585 ms PostmanRuntime/7.39.1 Mon, 21 Jul 2025 09:16:39 GMT
+remote-addr - GET /api/rent/renter 400 11.951 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:16:53 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 132.028 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:21:52 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 12.074 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:22:33 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 9.772 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:22:50 GMT -error-message: -
+remote-addr - POST /api/user/login 200 159.495 ms PostmanRuntime/7.39.1 Mon, 21 Jul 2025 09:23:56 GMT
+remote-addr - GET /api/rent/renter 400 7.448 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:24:10 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 135.898 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:25:14 GMT -error-message: -
+remote-addr - GET /api/rent/renterp 400 18.530 ms PostmanRuntime/7.39.1  Mon, 21 Jul 2025 09:25:26 GMT -error-message: -
+remote-addr - POST /api/user/login 200 224.991 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 09:26:30 GMT
+remote-addr - POST /api/rent 200 2574.553 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 09:27:03 GMT
+remote-addr - GET /api/rent/renter 400 14.129 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:27:21 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 96.410 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:28:24 GMT -error-message: -
+remote-addr - GET /api/rent/renter 400 89.954 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 09:29:21 GMT -error-message: -
+remote-addr - POST /api/user/login 200 153.992 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 09:47:03 GMT
+remote-addr - GET /api/rent/renter 200 49.489 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 09:47:10 GMT
+remote-addr - GET /api/rent/renter 200 102.198 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 09:47:49 GMT
+remote-addr - GET /api/rent/renter 200 70.545 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 09:57:50 GMT
+remote-addr - POST /api/user/login 200 119.918 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 09:59:07 GMT
+remote-addr - GET /api/rent/owner 200 54.289 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 09:59:17 GMT
+remote-addr - GET /api/rent/renter/686521469910072e97886860 404 3.636 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 10:00:23 GMT -error-message: Not found
+remote-addr - GET /api/rent/future/686521469910072e97886860 200 24.663 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 10:00:37 GMT
+remote-addr - GET /api/rent/future/686521469910072e97886860 401 33.867 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 10:03:17 GMT -error-message: -
+remote-addr - GET /api/rent/future/686521469910072e97886860 401 1.702 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 10:03:19 GMT -error-message: -
+remote-addr - POST /api/user/login 200 122.794 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 10:03:32 GMT
+remote-addr - GET /api/rent/future/686521469910072e97886860 200 21.908 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 10:03:45 GMT
+remote-addr - GET /api/rent/future/686521469910072e97886860 200 34.893 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 10:05:29 GMT
+remote-addr - GET /api/cars 200 490.007 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:38:37 GMT
+remote-addr - POST /api/user/login 200 506.946 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:39:01 GMT
+remote-addr - GET /api/cars 304 31.518 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:39:02 GMT
+remote-addr - POST /api/rentals 404 20.246 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 10:39:11 GMT -error-message: Not found
+remote-addr - POST /api/rentals 401 62.419 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 10:39:49 GMT -error-message: -
+remote-addr - POST /api/rentals 401 1.843 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 10:39:53 GMT -error-message: -
+remote-addr - POST /api/rentals 200 1481.147 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:42:01 GMT
+remote-addr - POST /api/rentals 200 822.720 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:42:19 GMT
+remote-addr - GET /api/user//check-auth 401 104.239 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 10:58:24 GMT -error-message: -
+remote-addr - GET /api/cars 304 158.504 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:58:25 GMT
+remote-addr - GET /api/cars 304 21.867 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:58:25 GMT
+remote-addr - GET /api/cars 304 25.972 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:58:31 GMT
+remote-addr - POST /api/user/login 200 668.258 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:58:46 GMT
+remote-addr - GET /api/cars 304 15.726 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:58:47 GMT
+remote-addr - POST /api/rentals 200 1909.660 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:59:04 GMT
+remote-addr - GET /api/cars 304 17.581 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 10:59:19 GMT
+remote-addr - POST /api/rentals 200 1483.577 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 11:02:11 GMT
+remote-addr - GET /api/cars 200 494.363 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 11:40:26 GMT
+remote-addr - POST /api/user/login 200 644.588 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 11:41:02 GMT
+remote-addr - GET /api/cars 304 26.773 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 11:41:03 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 400 96.660 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 11:41:23 GMT -error-message: -
+remote-addr - POST /api/rentals 200 1931.409 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 11:41:25 GMT
+remote-addr - POST /api/user/login 200 350.047 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 11:43:43 GMT
+remote-addr - GET /api/rent/future 404 7.201 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:44:36 GMT -error-message: Not found
+remote-addr - GET /api/rental/future 404 4.647 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:44:47 GMT -error-message: Not found
+remote-addr - GET /api/rentals/future 200 43.881 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 11:44:59 GMT
+remote-addr - GET /api/cars 304 106.667 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 11:46:29 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 401 3.987 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 11:46:37 GMT -error-message: -
+remote-addr - POST /api/rentals 401 75.185 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 11:46:37 GMT -error-message: -
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 200 100.132 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 11:46:59 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 142.529 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 11:48:53 GMT
+remote-addr - POST /api/rentals 200 4385.150 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 11:48:58 GMT
+remote-addr - GET /api/rentals/future?carId=686520099910072e9788685a 200 28.139 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 11:50:10 GMT
+remote-addr - POST /api/rentals 200 1563.993 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 11:50:12 GMT
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 105.806 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:50:47 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 18.988 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:51:05 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 22.857 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:51:06 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 22.846 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:51:07 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 30.274 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:51:08 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 117.530 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:51:35 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 21.758 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:51:37 GMT -error-message: -
+remote-addr - GET /api/rentals/future 200 111.519 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 11:53:25 GMT
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 82.796 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:55:16 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 27.183 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:55:18 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 92.380 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:55:50 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 27.316 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:55:52 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 15.854 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:55:52 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 12.813 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:55:53 GMT -error-message: -
+remote-addr - GET /api/rent/future/686521469910072e97886860 404 46.129 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:56:06 GMT -error-message: Not found
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 55.931 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:56:09 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 15.915 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:56:13 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 61.787 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:56:49 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 26.531 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:56:50 GMT -error-message: -
+remote-addr - GET /api/rent/future/686521469910072e97886860 404 7.140 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:57:00 GMT -error-message: Not found
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 24.713 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:57:07 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 15.708 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:57:09 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 52.226 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:58:34 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 401 21.584 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:59:22 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 401 1.875 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:59:23 GMT -error-message: -
+remote-addr - POST /api/user/login 200 140.967 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 11:59:40 GMT
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 22.460 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:59:55 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 11.102 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 11:59:57 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 50.364 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 12:00:20 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 14.060 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 12:00:24 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 10.355 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 12:00:25 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 44.658 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 12:00:49 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 49.508 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 12:01:29 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 19.780 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 12:01:31 GMT -error-message: -
+remote-addr - GET /api/rentals/future/686521469910072e97886860 404 58.982 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 12:01:50 GMT -error-message: -
+remote-addr - GET /api/rentals/future/ 404 48.291 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 12:57:32 GMT -error-message: Not found
+remote-addr - GET /api/rentals/future/ 401 43.923 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 12:57:46 GMT -error-message: -
+remote-addr - GET /api/rentals/future/ 401 0.628 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 12:57:48 GMT -error-message: -
+remote-addr - POST /api/user/login 200 132.829 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 12:58:01 GMT
+remote-addr - GET /api/rentals/future/ 200 33.504 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 12:58:16 GMT
+remote-addr - GET /api/cars 200 1282.445 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:00:25 GMT
+remote-addr - POST /api/user/login 200 162.832 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:01:11 GMT
+remote-addr - GET /api/cars 304 22.205 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:01:12 GMT
+remote-addr - GET /api/rentals/future 401 3.256 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:01:26 GMT -error-message: -
+remote-addr - POST /api/rentals 401 9.075 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:01:26 GMT -error-message: -
+remote-addr - GET /api/rentals/future 400 70.500 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:01:48 GMT -error-message: -
+remote-addr - POST /api/rentals 200 1875.566 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:01:50 GMT
+remote-addr - GET /api/rentals/future 400 35.955 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:03:19 GMT -error-message: -
+remote-addr - POST /api/rentals 200 1305.162 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:03:20 GMT
+remote-addr - GET /api/rentals/future 404 46.183 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:03:58 GMT -error-message: Not found
+remote-addr - POST /api/rentals 200 688.055 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:03:59 GMT
+remote-addr - GET /api/rentals/future 400 44.183 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:04:32 GMT -error-message: -
+remote-addr - POST /api/rentals 200 1526.555 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:04:33 GMT
+remote-addr - GET /api/rentals/future 401 95.353 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:16:46 GMT -error-message: -
+remote-addr - POST /api/rentals 401 15.895 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:16:47 GMT -error-message: -
+remote-addr - GET /api/cars 304 286.866 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:17:12 GMT
+remote-addr - POST /api/user/login 200 1481.197 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:17:41 GMT
+remote-addr - GET /api/cars 304 27.049 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:17:41 GMT
+remote-addr - GET /api/rentals/future 400 191.472 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:18:38 GMT -error-message: -
+remote-addr - POST /api/rentals 200 2989.882 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:18:41 GMT
+remote-addr - POST /api/user/login 400 22.130 ms Thunder Client (https://www.thunderclient.com)  Mon, 21 Jul 2025 13:19:10 GMT -error-message: "body.email" is required
+remote-addr - POST /api/user/login 200 210.564 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 13:19:20 GMT
+remote-addr - GET /api/rentals/future/ 200 59.916 ms Thunder Client (https://www.thunderclient.com) Mon, 21 Jul 2025 13:19:32 GMT
+remote-addr - GET /api/rentals/future 400 78.838 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:20:32 GMT -error-message: -
+remote-addr - POST /api/rentals 200 35965.210 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:21:08 GMT
+remote-addr - GET /api/user//check-auth 200 232.045 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:24:02 GMT
+remote-addr - GET /api/cars 304 152.227 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:24:03 GMT
+remote-addr - GET /api/cars 304 74.490 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:24:03 GMT
+remote-addr - GET /api/rentals/future 400 34.217 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:24:11 GMT -error-message: -
+remote-addr - POST /api/rentals 200 1827.800 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:24:13 GMT
+remote-addr - GET /api/rentals/future 400 30.893 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:26:22 GMT -error-message: -
+remote-addr - POST /api/rentals 200 6204.384 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:26:29 GMT
+remote-addr - GET /api/rentals/future 400 90.333 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:30:22 GMT -error-message: -
+remote-addr - POST /api/rentals 200 2242.523 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:30:24 GMT
+remote-addr - GET /api/user//check-auth 401 65.064 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 13:37:15 GMT -error-message: -
+remote-addr - GET /api/cars 304 84.949 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:37:18 GMT
+remote-addr - GET /api/cars 304 13.356 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:37:18 GMT
+remote-addr - GET /api/cars 304 28.445 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:37:40 GMT
+remote-addr - POST /api/user/login 200 551.112 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:38:10 GMT
+remote-addr - GET /api/cars 304 18.724 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:38:11 GMT
+remote-addr - GET /api/rentals/future?carId=686520099910072e9788685a 200 102.342 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:38:21 GMT
+remote-addr - POST /api/rentals 200 2838.443 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 13:38:24 GMT
+remote-addr - GET /api/cars 200 360.003 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:25:48 GMT
+remote-addr - POST /api/user/login 200 710.043 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:33:10 GMT
+remote-addr - GET /api/cars 304 33.158 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:33:11 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 200 104.926 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:33:19 GMT
+remote-addr - GET /api/user//check-auth 401 92.429 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 14:53:09 GMT -error-message: -
+remote-addr - GET /api/cars 304 102.586 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:53:11 GMT
+remote-addr - GET /api/cars 304 21.027 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:53:23 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 401 10.940 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 14:53:32 GMT -error-message: -
+remote-addr - GET /api/cars 304 15.856 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:54:13 GMT
+remote-addr - POST /api/user/login 500 331.013 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 21 Jul 2025 14:54:31 GMT -error-message: Invalid credentials
+remote-addr - POST /api/user/login 200 139.496 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:54:45 GMT
+remote-addr - GET /api/cars 304 10.392 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:54:45 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 58.822 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:54:51 GMT
+remote-addr - GET /api/user//check-auth 200 17.577 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:54:59 GMT
+remote-addr - GET /api/cars 304 26.744 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:54:59 GMT
+remote-addr - GET /api/cars 304 8.002 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:54:59 GMT
+remote-addr - GET /api/rentals/future?carId=686520099910072e9788685a 200 41.271 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:55:06 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 44.066 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:55:16 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 35.418 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:55:18 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 13.626 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 14:55:23 GMT
+remote-addr - GET /api/user//check-auth 304 120.669 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:08:05 GMT
+remote-addr - GET /api/cars 304 24.687 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:08:06 GMT
+remote-addr - GET /api/cars 304 25.923 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:08:14 GMT
+remote-addr - GET /api/cars 304 8.107 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:08:16 GMT
+remote-addr - POST /api/user/login 200 238.685 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:08:35 GMT
+remote-addr - GET /api/cars 304 8.143 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:08:36 GMT
+remote-addr - GET /api/rentals/future?carId=686520099910072e9788685a 304 45.108 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:08:57 GMT
+remote-addr - POST /api/rentals 200 3309.362 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:09:00 GMT
+remote-addr - GET /api/user//check-auth 200 269.933 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:23:02 GMT
+remote-addr - GET /api/cars 304 103.084 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:23:03 GMT
+remote-addr - GET /api/cars 304 35.764 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:23:03 GMT
+remote-addr - GET /api/cars 304 16.195 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:23:08 GMT
+remote-addr - POST /api/user/login 200 168.345 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:23:28 GMT
+remote-addr - GET /api/cars 304 10.258 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:23:28 GMT
+remote-addr - GET /api/rentals/future?carId=686520099910072e9788685a 200 52.600 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:24:11 GMT
+remote-addr - POST /api/rentals 200 1561.525 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:24:13 GMT
+remote-addr - GET /api/user//check-auth 304 159.002 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:35:36 GMT
+remote-addr - GET /api/cars 304 32.228 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 21 Jul 2025 15:35:38 GMT
+remote-addr - GET /api/cars 200 409.613 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:10:50 GMT
+remote-addr - POST /api/user/login 200 626.592 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:11:09 GMT
+remote-addr - GET /api/cars 304 24.970 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:11:10 GMT
+remote-addr - GET /api/rentals/future?carId=686520099910072e9788685a 200 78.431 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:11:26 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 200 110.976 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:11:41 GMT
+remote-addr - GET /api/user//check-auth 200 94.252 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:21:08 GMT
+remote-addr - GET /api/cars 304 4346.617 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:21:22 GMT
+remote-addr - GET /api/cars 304 32.035 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:21:22 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 80.766 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:23:29 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 49.476 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:24:16 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 24.110 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:24:38 GMT
+remote-addr - GET /api/user//check-auth 401 15.894 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 23 Jul 2025 22:26:14 GMT -error-message: -
+remote-addr - GET /api/cars 304 24.198 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:26:15 GMT
+remote-addr - GET /api/cars 304 20.082 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 23 Jul 2025 22:26:29 GMT
+remote-addr - GET /api/rentals/future?carId=686520099910072e9788685a 401 5.729 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 23 Jul 2025 22:29:28 GMT -error-message: -
+remote-addr - POST /api/rentals 401 26.543 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 23 Jul 2025 22:29:29 GMT -error-message: -
+remote-addr - GET /api/cars 200 1041.655 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 16:49:27 GMT
+remote-addr - POST /api/user/login 200 3074.595 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 16:49:50 GMT
+remote-addr - GET /api/cars 304 58.939 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 16:49:51 GMT
+remote-addr - GET /api/user//check-auth 200 245.564 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 16:54:43 GMT
+remote-addr - GET /api/cars 304 17.251 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 16:54:45 GMT
+remote-addr - GET /api/cars 304 20.867 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 16:54:48 GMT
+remote-addr - GET /api/user//check-auth 304 13.480 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 16:55:34 GMT
+remote-addr - GET /api/cars 304 23.763 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 16:55:34 GMT
+remote-addr - GET /api/cars 304 24.882 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 16:55:38 GMT
+remote-addr - GET /api/user//check-auth 304 162.576 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 17:00:23 GMT
+remote-addr - GET /api/cars 304 14.313 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 17:00:24 GMT
+remote-addr - GET /api/cars 304 20.488 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 17:00:28 GMT
+remote-addr - GET /api/user//check-auth 304 10.635 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 17:00:51 GMT
+remote-addr - GET /api/cars 304 19.091 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 17:00:52 GMT
+remote-addr - GET /api/cars 304 24.043 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 17:00:54 GMT
+remote-addr - GET /api/user//check-auth 401 84.317 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 17:08:12 GMT -error-message: -
+remote-addr - GET /api/cars 304 244.851 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 17:08:14 GMT
+remote-addr - GET /api/cars 304 21.190 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 17:08:14 GMT
+remote-addr - GET /api/cars 200 170.254 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 21:41:16 GMT
+remote-addr - POST /api/user/login 200 492.660 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 21:44:46 GMT
+remote-addr - GET /api/cars 304 48.470 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 21:44:47 GMT
+remote-addr - GET /api/user//check-auth 200 165.847 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 21:47:04 GMT
+remote-addr - GET /api/cars 304 75.556 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 21:47:06 GMT
+remote-addr - GET /api/cars 304 11.852 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 21:47:06 GMT
+remote-addr - GET /api/cars 200 213.162 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:28:14 GMT
+remote-addr - POST /api/user/login 200 555.448 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:28:32 GMT
+remote-addr - GET /api/cars 304 42.662 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:28:34 GMT
+remote-addr - GET /api/user//check-auth 200 179.961 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:41:33 GMT
+remote-addr - GET /api/cars 304 40.212 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:41:34 GMT
+remote-addr - GET /api/cars 304 101.592 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:41:34 GMT
+remote-addr - GET /api/user//check-auth 401 11.364 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 22:44:51 GMT -error-message: -
+remote-addr - GET /api/cars 304 15.394 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:44:53 GMT
+remote-addr - GET /api/cars 304 14.412 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:44:53 GMT
+remote-addr - GET /api/user//check-auth 401 11.002 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 22:58:17 GMT -error-message: -
+remote-addr - GET /api/cars 304 284.804 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:58:18 GMT
+remote-addr - GET /api/cars 304 14.724 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:58:20 GMT
+remote-addr - GET /api/user//check-auth 401 32.982 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 22:59:45 GMT -error-message: -
+remote-addr - GET /api/cars 304 557.551 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:59:47 GMT
+remote-addr - GET /api/cars 304 14.103 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 22:59:47 GMT
+remote-addr - GET /api/user//check-auth 401 48.849 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 23:10:57 GMT -error-message: -
+remote-addr - GET /api/cars 304 106.716 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:10:58 GMT
+remote-addr - GET /api/cars 304 7.351 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:10:58 GMT
+remote-addr - GET /api/user//check-auth 401 25.240 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 23:17:07 GMT -error-message: -
+remote-addr - GET /api/cars 304 173.201 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:17:09 GMT
+remote-addr - GET /api/cars 304 9.988 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:17:09 GMT
+remote-addr - GET /api/user//check-auth 401 77.554 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 23:22:48 GMT -error-message: -
+remote-addr - GET /api/cars 304 245.453 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:22:50 GMT
+remote-addr - GET /api/cars 304 9.222 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:22:50 GMT
+remote-addr - GET /api/user//check-auth 401 7.273 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 23:25:12 GMT -error-message: -
+remote-addr - GET /api/cars 304 12.530 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:25:14 GMT
+remote-addr - GET /api/cars 304 10.943 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:25:14 GMT
+remote-addr - GET /api/user//check-auth 401 1.771 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 23:26:15 GMT -error-message: -
+remote-addr - GET /api/cars 304 10.641 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:26:15 GMT
+remote-addr - GET /api/cars 304 14.213 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:26:19 GMT
+remote-addr - GET /api/user//check-auth 401 40.789 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 23:33:39 GMT -error-message: -
+remote-addr - GET /api/cars 304 195.195 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:33:43 GMT
+remote-addr - GET /api/cars 304 9.195 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:33:44 GMT
+remote-addr - GET /api/user//check-auth 401 2.797 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 23:34:21 GMT -error-message: -
+remote-addr - GET /api/cars 304 17.448 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:34:22 GMT
+remote-addr - GET /api/cars 304 9.936 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:34:22 GMT
+remote-addr - GET /api/user//check-auth 401 4.258 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 23:35:17 GMT -error-message: -
+remote-addr - GET /api/cars 304 12.571 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:35:17 GMT
+remote-addr - GET /api/cars 304 17.297 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:35:20 GMT
+remote-addr - GET /api/user//check-auth 401 1.794 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 23:36:37 GMT -error-message: -
+remote-addr - GET /api/cars 304 9.830 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:36:38 GMT
+remote-addr - GET /api/cars 304 18.142 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Thu, 24 Jul 2025 23:36:42 GMT
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 401 32.469 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 23:37:02 GMT -error-message: -
+remote-addr - POST /api/rentals 401 37.262 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Thu, 24 Jul 2025 23:37:02 GMT -error-message: -
+remote-addr - GET /api/cars 200 234.221 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:02:25 GMT
+remote-addr - POST /api/user/login 200 377.041 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:02:49 GMT
+remote-addr - GET /api/cars 304 15.008 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:02:50 GMT
+remote-addr - GET /api/rentals/future?carId=68651c7a90e4ac9b7753d8d5 200 172.863 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:03:24 GMT
+remote-addr - POST /api/rentals 200 2402.531 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:03:27 GMT
+remote-addr - GET /api/user//check-auth 200 179.687 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:15:44 GMT
+remote-addr - GET /api/cars 304 46.456 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:15:45 GMT
+remote-addr - GET /api/cars 304 17.708 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:15:59 GMT
+remote-addr - GET /api/rentals/future?carId=68651c7a90e4ac9b7753d8d5 200 93.333 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:16:06 GMT
+remote-addr - GET /api/user//check-auth 401 91.607 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Fri, 25 Jul 2025 13:28:26 GMT -error-message: -
+remote-addr - GET /api/cars 304 201.939 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:28:31 GMT
+remote-addr - GET /api/cars 304 16.615 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:28:52 GMT
+remote-addr - GET /api/cars 304 20.098 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:28:57 GMT
+remote-addr - POST /api/user/login 200 398.322 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:29:17 GMT
+remote-addr - GET /api/cars 304 34.318 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:29:18 GMT
+remote-addr - GET /api/user//check-auth 304 29.297 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:32:16 GMT
+remote-addr - GET /api/cars 304 8.886 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:32:17 GMT
+remote-addr - GET /api/cars 304 18.724 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:32:23 GMT
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 200 35.175 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:34:12 GMT
+remote-addr - POST /api/rentals 200 1835.644 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:34:13 GMT
+remote-addr - GET /api/user//check-auth 401 55.428 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Fri, 25 Jul 2025 13:49:04 GMT -error-message: -
+remote-addr - GET /api/cars 304 53.924 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 13:49:05 GMT
+remote-addr - GET /api/cars 200 130.671 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:14:18 GMT
+remote-addr - POST /api/user/login 200 204.657 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:14:39 GMT
+remote-addr - GET /api/cars 304 8.676 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:14:39 GMT
+remote-addr - GET /api/rentals/future?carId=68651c7a90e4ac9b7753d8d5 200 62.165 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:14:56 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 200 23.372 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:15:19 GMT
+remote-addr - GET /api/user//check-auth 200 131.688 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:17:42 GMT
+remote-addr - GET /api/cars 304 44.909 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:17:44 GMT
+remote-addr - GET /api/cars 304 49.827 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:17:44 GMT
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 200 39.195 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:17:52 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 20.294 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:18:12 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 19.399 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:19:13 GMT
+remote-addr - POST /api/rentals 200 897.648 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:19:15 GMT
+remote-addr - GET /api/user//check-auth 304 252.013 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:23:50 GMT
+remote-addr - GET /api/cars 304 24.749 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:23:50 GMT
+remote-addr - GET /api/cars 304 10.529 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:23:54 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 200 52.068 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:24:04 GMT
+remote-addr - GET /api/user//check-auth 401 48.172 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Fri, 25 Jul 2025 14:30:56 GMT -error-message: -
+remote-addr - GET /api/cars 304 69.261 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:30:57 GMT
+remote-addr - GET /api/cars 304 15.556 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:31:03 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 401 13.157 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Fri, 25 Jul 2025 14:31:14 GMT -error-message: -
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 401 2.389 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Fri, 25 Jul 2025 14:31:36 GMT -error-message: -
+remote-addr - GET /api/rentals/future?carId=686f791ab4d15e82eb0f796e 401 18.863 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Fri, 25 Jul 2025 14:31:59 GMT -error-message: -
+remote-addr - GET /api/rentals/future?carId=686f791ab4d15e82eb0f796e 200 44.466 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:33:00 GMT
+remote-addr - GET /api/rentals/future?carId=686f791ab4d15e82eb0f796e 304 21.244 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:33:17 GMT
+remote-addr - GET /api/user//check-auth 401 822.838 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Fri, 25 Jul 2025 14:37:50 GMT -error-message: -
+remote-addr - GET /api/cars 304 240.240 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:37:53 GMT
+remote-addr - GET /api/cars 304 33.761 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:37:53 GMT
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 304 69.066 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:39:54 GMT
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 304 10.770 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:39:54 GMT
+remote-addr - GET /api/rentals/future?carId=686b025981dc2f3ebc53443b 200 13.889 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:40:11 GMT
+remote-addr - GET /api/rentals/future?carId=686b025981dc2f3ebc53443b 304 16.529 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:40:11 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 24.463 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:40:27 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 54.280 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Fri, 25 Jul 2025 14:40:28 GMT
+remote-addr - POST /api/user/login 200 562.699 ms Thunder Client (https://www.thunderclient.com) Sat, 26 Jul 2025 18:22:56 GMT
+remote-addr - GET /api/rentals/renter 401 4.748 ms Thunder Client (https://www.thunderclient.com)  Sat, 26 Jul 2025 18:25:07 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 200 82.864 ms Thunder Client (https://www.thunderclient.com) Sat, 26 Jul 2025 18:27:06 GMT
+remote-addr - GET /api/rentals/owner 404 17.306 ms Thunder Client (https://www.thunderclient.com)  Sat, 26 Jul 2025 18:27:30 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 200 42.385 ms Thunder Client (https://www.thunderclient.com) Sat, 26 Jul 2025 18:28:20 GMT
+remote-addr - POST /api/user/login 200 149.219 ms Thunder Client (https://www.thunderclient.com) Sat, 26 Jul 2025 18:29:27 GMT
+remote-addr - GET /api/rentals/owner 200 45.151 ms Thunder Client (https://www.thunderclient.com) Sat, 26 Jul 2025 18:29:35 GMT
+remote-addr - GET /api/rentals/renter 200 39.163 ms Thunder Client (https://www.thunderclient.com) Sat, 26 Jul 2025 18:30:07 GMT
+remote-addr - GET /api/rentals/renter 200 90.068 ms Thunder Client (https://www.thunderclient.com) Sat, 26 Jul 2025 18:33:18 GMT
+remote-addr - GET /api/rentals/renter 404 32.144 ms Thunder Client (https://www.thunderclient.com)  Sat, 26 Jul 2025 18:34:52 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 404 11.661 ms Thunder Client (https://www.thunderclient.com)  Sat, 26 Jul 2025 18:35:05 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 404 15.405 ms Thunder Client (https://www.thunderclient.com)  Sat, 26 Jul 2025 18:35:10 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 404 13.902 ms Thunder Client (https://www.thunderclient.com)  Sat, 26 Jul 2025 18:35:11 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 404 10.135 ms Thunder Client (https://www.thunderclient.com)  Sat, 26 Jul 2025 18:35:20 GMT -error-message: -
+remote-addr - POST /api/user/login 200 89.528 ms Thunder Client (https://www.thunderclient.com) Sat, 26 Jul 2025 18:35:37 GMT
+remote-addr - POST /api/rentals/renter 404 34.752 ms Thunder Client (https://www.thunderclient.com)  Sat, 26 Jul 2025 18:35:44 GMT -error-message: Not found
+remote-addr - GET /api/rentals/renter 404 10.508 ms Thunder Client (https://www.thunderclient.com)  Sat, 26 Jul 2025 18:35:55 GMT -error-message: -
+remote-addr - POST /api/user/signup 201 369.861 ms Thunder Client (https://www.thunderclient.com) Sun, 27 Jul 2025 03:04:58 GMT
+remote-addr - POST /api/user/login 200 408.952 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 10:15:34 GMT
+remote-addr - GET /api/cars 200 103.354 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 10:16:12 GMT
+remote-addr - GET /api/rentals/renter 200 190.266 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 10:16:30 GMT
+remote-addr - POST /api/user/login 200 257.420 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 10:17:05 GMT
+remote-addr - GET /api/cars 304 21.844 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 10:17:05 GMT
+remote-addr - GET /api/rentals/future?carId=68651c7a90e4ac9b7753d8d5 200 41.293 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 10:18:22 GMT
+remote-addr - GET /api/rentals/future?carId=68651c7a90e4ac9b7753d8d5 304 23.484 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 10:18:22 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 200 165.258 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 10:19:05 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 137.156 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 10:19:05 GMT
+remote-addr - GET /api/rentals/renter 401 55.885 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 10:32:45 GMT -error-message: -
+remote-addr - POST /api/user/login 200 219.003 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 10:32:53 GMT
+remote-addr - GET /api/rentals/renter 404 29.138 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 10:33:00 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 401 48.206 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 10:48:36 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 401 3.441 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 10:48:39 GMT -error-message: -
+remote-addr - POST /api/user/login 200 177.098 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 10:48:47 GMT
+remote-addr - GET /api/rentals/renter 400 57.057 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 10:48:54 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 404 77.453 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 10:49:30 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 400 112.860 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 10:50:35 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 400 129.899 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 10:54:52 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 400 100.169 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 10:55:40 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 400 138.212 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 10:56:06 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 400 118.366 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 10:56:40 GMT -error-message: -
+remote-addr - POST /api/user/login 200 230.641 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 11:02:01 GMT
+remote-addr - GET /api/rentals/renter 200 81.863 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 11:02:11 GMT
+remote-addr - GET /api/rentals/renter 401 174.387 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 11:11:02 GMT -error-message: -
+remote-addr - POST /api/user/login 200 162.307 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 11:43:24 GMT
+remote-addr - PATCH /api/rentals/update-viewed 404 14.079 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 11:45:29 GMT -error-message: Not found
+remote-addr - PATCH /api/rentals/update-viewed 404 214.323 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 11:52:51 GMT -error-message: Not found
+remote-addr - PATCH /api/rentals/updateview 404 29.847 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 11:53:18 GMT -error-message: Not found
+remote-addr - PATCH /api/rentals/updateview 404 29.560 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 11:54:02 GMT -error-message: Not found
+remote-addr - PATCH /api/rentals/updateview 404 4.671 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 11:54:05 GMT -error-message: Not found
+remote-addr - PATCH /api/rentals/updateview 200 99.069 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 11:54:26 GMT
+remote-addr - POST /api/user/login 200 234.662 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 12:16:32 GMT
+remote-addr - GET /api/rentals/renter 200 104.449 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 12:16:38 GMT
+remote-addr - GET /api/user/login 404 75.956 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 12:22:27 GMT -error-message: Not found
+remote-addr - POST /api/user/login 200 270.930 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 12:22:30 GMT
+remote-addr - GET /api/rentals/owner 200 117.080 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 12:22:42 GMT
+remote-addr - GET /api/cars 200 535.225 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:42:04 GMT
+remote-addr - POST /api/user/login 200 310.034 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:42:32 GMT
+remote-addr - GET /api/cars 304 22.989 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:42:33 GMT
+remote-addr - GET /api/rentals/renter 401 2.071 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 12:42:39 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 0.632 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 12:42:39 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 401 2.196 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 12:42:43 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 0.790 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 12:42:44 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 200 167.479 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:44:23 GMT
+remote-addr - GET /api/rentals/owner 404 65.644 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 12:44:24 GMT -error-message: -
+remote-addr - GET /api/user//check-auth 200 218.235 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:46:36 GMT
+remote-addr - GET /api/cars 304 106.333 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:46:39 GMT
+remote-addr - GET /api/cars 304 48.473 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:47:27 GMT
+remote-addr - GET /api/cars 304 18.741 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:47:32 GMT
+remote-addr - POST /api/user/login 200 1395.422 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:47:54 GMT
+remote-addr - GET /api/cars 304 15.548 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:47:55 GMT
+remote-addr - GET /api/rentals/renter 304 85.911 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:48:02 GMT
+remote-addr - GET /api/rentals/owner 404 13.078 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 12:48:03 GMT -error-message: -
+remote-addr - GET /api/cars 304 9.087 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:48:15 GMT
+remote-addr - POST /api/user/login 200 202.637 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:48:41 GMT
+remote-addr - GET /api/cars 304 10.016 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:48:42 GMT
+remote-addr - GET /api/rentals/renter 404 14.079 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 12:48:47 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 200 86.410 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:48:48 GMT
+remote-addr - GET /api/user//check-auth 200 130.186 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:49:46 GMT
+remote-addr - GET /api/cars 304 35.622 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:49:48 GMT
+remote-addr - GET /api/user//check-auth 304 1612.816 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:51:31 GMT
+remote-addr - GET /api/cars 304 38.843 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:51:31 GMT
+remote-addr - GET /api/cars 304 18.035 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:51:31 GMT
+remote-addr - GET /api/user//check-auth 304 20.686 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:51:50 GMT
+remote-addr - GET /api/cars 304 17.341 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:51:50 GMT
+remote-addr - GET /api/cars 304 12.344 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:51:50 GMT

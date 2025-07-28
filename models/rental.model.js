@@ -16,6 +16,10 @@ const rentalSchema = new mongoose.Schema({
     ref: 'User',
     required: true
   },
+  viewed: {
+    type: Boolean,
+    default: false
+  },
   startDate: {
     type: Date,
     required: true

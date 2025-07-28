@@ -29,7 +29,7 @@ app.use(cookieParser());
 // Define API routes
 app.use('/api/user', authRouter);
 app.use('/api/cars', carRouter);
-app.use('/api/rent', rentRouter);
+app.use('/api/rentals', rentRouter);
 
 // Handle unknown routes
 app.use((req, res, next) => {

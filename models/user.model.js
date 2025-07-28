@@ -19,6 +19,11 @@ const userSchema = new mongoose.Schema(
 			type: String,
 			required: true,
 		},
+		phone_number: {
+			type: String,
+			required: true, 
+			unique: true,   
+		},
 		lastLogin: {
 			type: Date,
 			default: Date.now,
