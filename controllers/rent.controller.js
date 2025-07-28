@@ -135,43 +135,51 @@ exports.getRentalsByOwner = async (req, res) => {
   try {
     const ownerId = req.user._id; // Get owner ID from the authenticated user
     const rentals = await Rental.find({ owner: ownerId })
-      .populate({
-        path: 'car user',
-        select: 'first_name last_name phone_number', // Select desired fields
-      });
+      .populate('car')
+      .populate('user');
 
     if (!rentals.length) {
       return res.status(404).json({ message: 'No rentals found for this owner.' });
     }
 
-    res.status(200).json(rentals);
+    const rentalDetails = rentals.map(rental => {
+      const car = rental.car;
+      const user = rental.user;
+
+      // Extract details
+      const carMake = car.make;
+      const carModel = car.model;
+      const carPhoto = car.photos[0]; // Get the first photo
+      const renterName = `${user.first_name} ${user.last_name}`;
+      const renterPhone = user.phone_number;
+      const startDate = rental.startDate;
+      const endDate = rental.endDate;
+      const totalPrice = rental.totalPrice; // Assuming totalPrice is already calculated in the rental
+
+      return {
+        car: {
+          make: carMake,
+          model: carModel,
+          photo: carPhoto,
+        },
+        renter: {
+          name: renterName,
+          phone: renterPhone,
+        },
+        rental: {
+          startDate,
+          endDate,
+          totalPrice,
+        }
+      };
+    });
+
+    // Respond with the gathered information
+    res.status(200).json(rentalDetails);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
 };
-
-
-// exports.getRentalsByRenter = async (req, res) => {
-//   try {
-//     const renterId = req.user._id; 
-//     const rentals = await Rental.find({ user: renterId })
-//       .populate({
-//         path: 'car owner user',
-//         select: 'first_name last_name phone_number', // Select desired fields
-//       });
-
-//     if (!rentals.length) {
-//       return res.status(404).json({ message: 'No rentals found for this renter.' });
-//     }
-
-//     res.status(200).json(rentals);
-//   } catch (error) {
-//     console.error("Error fetching rentals:", error);
-//     res.status(400).json({ message: error.message });
-//   }
-// };
-
-
 
 exports.getRentalsByRenter = async (req, res) => {
   try {
@@ -248,3 +256,5 @@ exports.getFutureRentalsForCar = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
+
+
