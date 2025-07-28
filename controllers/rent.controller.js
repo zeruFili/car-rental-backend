@@ -258,3 +258,33 @@ exports.getFutureRentalsForCar = async (req, res) => {
 };
 
 
+exports.updateViewedStatus = async (req, res) => {
+  try {
+    const { rentalId } = req.body; 
+
+    // Validate rentalId
+    if (!rentalId) {
+      return res.status(400).json({ error: "Rental ID is required" });
+    }
+
+    // Find the rental by ID
+    const rental = await Rental.findById(rentalId);
+    if (!rental) {
+      return res.status(404).json({ message: 'Rental not found.' });
+    }
+
+
+
+    // Update the viewed status
+    rental.viewed = true;
+    await rental.save();
+
+    res.status(200).json({
+      message: 'Rental viewed status updated successfully.',
+      rental,
+    });
+  } catch (error) {
+    console.error("Error updating viewed status:", error);
+    res.status(400).json({ message: error.message });
+  }
+};

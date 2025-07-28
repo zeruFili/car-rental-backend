@@ -24,4 +24,6 @@ router.get('/renter', protect, rentalController.getRentalsByRenter);
 // Get future rentals for a specific car
 router.get('/future', protect, rentalController.getFutureRentalsForCar);
 
+router.patch('/updateview', protect, rentalController.updateViewedStatus);
+
 module.exports = router;
