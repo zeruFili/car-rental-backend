@@ -260,7 +260,8 @@ exports.getFutureRentalsForCar = async (req, res) => {
 
 exports.updateViewedStatus = async (req, res) => {
   try {
-    const { rentalId } = req.body; 
+    const { rentalId } = req.body; // Get rental ID from the request body
+    const userId = req.user._id; // Get user ID from the authenticated user
 
     // Validate rentalId
     if (!rentalId) {
@@ -273,7 +274,10 @@ exports.updateViewedStatus = async (req, res) => {
       return res.status(404).json({ message: 'Rental not found.' });
     }
 
-
+    // Check if the user is the owner of the rental
+    if (!rental.owner.equals(userId)) {
+      return res.status(403).json({ message: 'You are not authorized to update this rental.' });
+    }
 
     // Update the viewed status
     rental.viewed = true;
