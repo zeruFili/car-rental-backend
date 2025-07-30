@@ -49,35 +49,49 @@ exports.getCarById = async (req, res) => {
 exports.updateCar = async (req, res) => {
   try {
     const car = await Car.findById(req.params.id);
-    
-    // Ensure the car exists
+        
     if (!car) {
       return res.status(404).json({ message: 'Car not found' });
     }
-
-    const userId = req.user._id; // Get user ID from the authenticated user
-
-    // Check ownership
+    
+    const userId = req.user._id;
+    
     if (!car.owner.equals(userId)) {
       return res.status(403).json({ message: 'You do not have permission to update this car' });
     }
 
     // Update car details
     Object.assign(car, req.body);
-    console.log("car",car)
+
+    // Handle photos - MODIFIED LOGIC
+    if (req.files && req.files.length > 0) {
+      const newPhotos = req.files.map(file => file.filename);
+      
+      // Check if we should keep existing photos
+      if (req.body.keepExistingPhotos) {
+        const existingPhotosToKeep = req.body.keepExistingPhotos.split(',').filter(p => p.trim() !== '');
+        car.photos = [...existingPhotosToKeep, ...newPhotos]; // COMBINE instead of replace
+      } else {
+        car.photos = newPhotos; // Replace all if no existing photos to keep
+      }
+    }
+    // If no new files but we have keepExistingPhotos, update accordingly
+    else if (req.body.keepExistingPhotos) {
+      const existingPhotosToKeep = req.body.keepExistingPhotos.split(',').filter(p => p.trim() !== '');
+      car.photos = existingPhotosToKeep;
+    }
+
     await car.save();
 
-    // Send a response with the updated car details
     res.status(200).json({
       message: 'Car updated successfully',
-      car: car // Return the updated car object
+      car: car
     });
   } catch (error) {
-    console.error(error); // Log the error for debugging
+    console.error(error);
     res.status(400).json({ message: error.message });
   }
 };
-
 // Delete a car
 exports.deleteCar = async (req, res) => {
   try {
