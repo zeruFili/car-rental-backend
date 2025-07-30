@@ -49,18 +49,31 @@ exports.getCarById = async (req, res) => {
 exports.updateCar = async (req, res) => {
   try {
     const car = await Car.findById(req.params.id);
+    
+    // Ensure the car exists
     if (!car) {
       return res.status(404).json({ message: 'Car not found' });
     }
-    if (!car.owner.equals(req.user._id)) { // Check ownership
+
+    const userId = req.user._id; // Get user ID from the authenticated user
+
+    // Check ownership
+    if (!car.owner.equals(userId)) {
       return res.status(403).json({ message: 'You do not have permission to update this car' });
     }
 
     // Update car details
     Object.assign(car, req.body);
+    console.log("car",car)
     await car.save();
-    res.status(200).json(car);
+
+    // Send a response with the updated car details
+    res.status(200).json({
+      message: 'Car updated successfully',
+      car: car // Return the updated car object
+    });
   } catch (error) {
+    console.error(error); // Log the error for debugging
     res.status(400).json({ message: error.message });
   }
 };
@@ -69,16 +82,22 @@ exports.updateCar = async (req, res) => {
 exports.deleteCar = async (req, res) => {
   try {
     const car = await Car.findById(req.params.id);
+    
     if (!car) {
       return res.status(404).json({ message: 'Car not found' });
     }
-    if (!car.owner.equals(req.user._id)) { // Check ownership
+    
+    if (!car.owner.equals(req.user._id)) {
       return res.status(403).json({ message: 'You do not have permission to delete this car' });
     }
 
-    await car.remove();
-    res.status(204).send();
+    // Use deleteOne to remove the car
+    await Car.deleteOne({ _id: req.params.id });
+    
+    // Send a response indicating successful deletion
+    res.status(200).json({ message: 'Car deleted successfully' });
   } catch (error) {
+    console.error(error); // Log the error for debugging
     res.status(500).json({ message: error.message });
   }
 };
@@ -101,6 +120,18 @@ exports.updateCarStatusToPending = async (req, res) => {
     await car.save();
 
     res.status(200).json(car);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+
+// Get cars by user ID
+exports.getCarsByUserId = async (req, res) => {
+  try {
+    const userId = req.user._id; // Get the user ID from the authenticated user
+    const cars = await Car.find({ owner: userId }); // Find cars owned by the user
+    res.status(200).json(cars);
   } catch (error) {
     res.status(500).json({ message: error.message });
   }

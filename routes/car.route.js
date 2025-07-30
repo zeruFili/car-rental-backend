@@ -11,15 +11,18 @@ router.post('/', protect, uploadFileMiddleware, carController.createCar);
 router.put('/:id', protect, uploadFileMiddleware, carController.updateCar);
 
 // Update car status to pending (admin only)
-router.put('/:id/status/pending', protect, carController.updateCarStatusToPending);
+router.put('status/:id', protect, carController.updateCarStatusToPending);
 
 // Delete a car record
 router.delete('/:id', protect, carController.deleteCar);
 
 // View all cars
-router.get('/',  carController.getAllCars); // Ensure this is the only instance
+router.get('/',  carController.getAllCars); // Ensure this is the only instance 
+// Get cars by user ID
+router.get('/user', protect, carController.getCarsByUserId);
 
 // Get a car by ID
 router.get('/:id',  carController.getCarById);
+
 
 module.exports = router;

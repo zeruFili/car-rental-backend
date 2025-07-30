@@ -40,14 +40,10 @@ const uploadFileMiddleware = (req, res, next) => {
     } else if (err) {
       // Other errors
       return res.status(400).json({ error: `Error: ${err}` });
-    } else {
-      if (!req.files || req.files.length === 0) {
-        return res.status(400).json({ error: "Error: No File Selected!" });
-      } else {
-        // Continue processing or pass the files to the next middleware/controller
-        next();
-      }
     }
+
+    // Proceed if files were uploaded, if not, just continue
+    next();
   });
 };
 

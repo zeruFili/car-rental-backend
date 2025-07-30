@@ -834,3 +834,760 @@ remote-addr - GET /api/cars 304 18.035 ms Mozilla/5.0 (Windows NT 10.0; Win64; x
 remote-addr - GET /api/user//check-auth 304 20.686 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:51:50 GMT
 remote-addr - GET /api/cars 304 17.341 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:51:50 GMT
 remote-addr - GET /api/cars 304 12.344 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 12:51:50 GMT
+remote-addr - GET /api/rentals/renter 401 269.312 ms Thunder Client (https://www.thunderclient.com)  Mon, 28 Jul 2025 13:52:03 GMT -error-message: -
+remote-addr - POST /api/user/login 200 584.536 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 13:52:31 GMT
+remote-addr - GET /api/rentals/owner 200 440.342 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 13:54:38 GMT
+remote-addr - GET /api/rentals/owner 200 216.926 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 13:56:03 GMT
+remote-addr - GET /api/rentals/owner 200 141.471 ms Thunder Client (https://www.thunderclient.com) Mon, 28 Jul 2025 13:56:44 GMT
+remote-addr - GET /api/cars 200 616.223 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:23:04 GMT
+remote-addr - POST /api/user/login 500 834.825 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:23:32 GMT -error-message: Invalid credentials
+remote-addr - POST /api/user/login 200 373.959 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:24:01 GMT
+remote-addr - GET /api/cars 304 52.030 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:24:02 GMT
+remote-addr - GET /api/rentals/renter 404 112.543 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:06 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 200 123.636 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:24:06 GMT
+remote-addr - GET /api/rentals/renter 404 32.646 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:10 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 65.937 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:24:10 GMT
+remote-addr - GET /api/rentals/renter 404 14.510 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:10 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 16.035 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:10 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 16.142 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:10 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 10.540 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:10 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 11.987 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:10 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 72.312 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:24:10 GMT
+remote-addr - PATCH /api/rentals/updateview 400 11.727 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:10 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 17.094 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:11 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 10.714 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:11 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 16.109 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:11 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 404 29.299 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:43 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 55.109 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:24:43 GMT
+remote-addr - GET /api/rentals/renter 404 20.126 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:47 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 80.813 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:24:47 GMT
+remote-addr - GET /api/rentals/renter 404 17.007 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:47 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 16.684 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:47 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 15.670 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:47 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 15.008 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:48 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 13.353 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:48 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 46.779 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:24:48 GMT
+remote-addr - PATCH /api/rentals/updateview 400 9.856 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:48 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 20.081 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:48 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 13.547 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:48 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 13.100 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:48 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 404 19.220 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:24:58 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 44.449 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:24:58 GMT
+remote-addr - GET /api/user//check-auth 200 8.323 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:25:07 GMT
+remote-addr - GET /api/cars 304 16.929 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:25:08 GMT
+remote-addr - GET /api/cars 304 8.500 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:25:08 GMT
+remote-addr - GET /api/rentals/renter 404 14.343 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:25:11 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 39.847 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:25:12 GMT
+remote-addr - GET /api/rentals/renter 404 14.368 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:25:18 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 39.062 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:25:18 GMT
+remote-addr - GET /api/rentals/renter 404 17.118 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:25:19 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 8.626 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:25:19 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 12.958 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:25:19 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 9.571 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:25:19 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 15.382 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:25:19 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 51.042 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:25:19 GMT
+remote-addr - PATCH /api/rentals/updateview 400 10.226 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:25:19 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 12.804 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:25:19 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 10.000 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:25:19 GMT -error-message: -
+remote-addr - PATCH /api/rentals/updateview 400 17.012 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:25:19 GMT -error-message: -
+remote-addr - GET /api/user//check-auth 304 136.621 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:35:13 GMT
+remote-addr - GET /api/cars 304 91.222 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:35:15 GMT
+remote-addr - GET /api/cars 304 57.245 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:35:18 GMT
+remote-addr - GET /api/rentals/renter 404 57.991 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:35:20 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 111.441 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:35:21 GMT
+remote-addr - GET /api/cars 304 24.281 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:35:22 GMT
+remote-addr - POST /api/user/login 200 290.780 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:35:39 GMT
+remote-addr - GET /api/cars 304 17.652 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:35:40 GMT
+remote-addr - GET /api/rentals/renter 404 19.336 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:35:42 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 42.995 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:35:43 GMT
+remote-addr - GET /api/rentals/renter 404 42.175 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:35:45 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 48.878 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:35:45 GMT
+remote-addr - GET /api/rentals/renter 404 14.960 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:35:45 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 60.054 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:35:45 GMT
+remote-addr - GET /api/rentals/renter 404 19.762 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:36:28 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 31.969 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:36:29 GMT
+remote-addr - GET /api/rentals/renter 404 16.052 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:36:33 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 36.843 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:36:33 GMT
+remote-addr - GET /api/rentals/renter 404 14.848 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:36:33 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 50.117 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:36:33 GMT
+remote-addr - GET /api/rentals/renter 404 18.689 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:36:39 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 30.060 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:36:40 GMT
+remote-addr - GET /api/rentals/renter 404 17.591 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:36:41 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 47.404 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:36:41 GMT
+remote-addr - GET /api/rentals/renter 404 23.173 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:36:42 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 41.006 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:36:42 GMT
+remote-addr - GET /api/rentals/renter 404 17.613 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:36:44 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 77.385 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:36:44 GMT
+remote-addr - GET /api/user//check-auth 304 13.176 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:36:50 GMT
+remote-addr - GET /api/cars 304 42.763 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:36:51 GMT
+remote-addr - GET /api/cars 304 13.035 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:36:52 GMT
+remote-addr - GET /api/rentals/renter 404 19.713 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:36:54 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 46.274 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:36:54 GMT
+remote-addr - GET /api/rentals/renter 404 15.851 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:37:16 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 35.065 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:37:16 GMT
+remote-addr - GET /api/rentals/renter 404 10.108 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:37:16 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 49.454 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:37:17 GMT
+remote-addr - GET /api/rentals/renter 404 121.911 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:38:08 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 65.665 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:38:08 GMT
+remote-addr - GET /api/rentals/renter 404 13.957 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:38:10 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 97.913 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:38:10 GMT
+remote-addr - GET /api/rentals/renter 404 27.336 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:38:10 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 39.296 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:38:10 GMT
+remote-addr - GET /api/user//check-auth 304 200.447 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:40:48 GMT
+remote-addr - GET /api/cars 304 62.704 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:40:49 GMT
+remote-addr - GET /api/cars 304 12.990 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:40:49 GMT
+remote-addr - GET /api/rentals/renter 404 62.851 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:40:53 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 102.124 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:40:53 GMT
+remote-addr - GET /api/rentals/renter 404 16.285 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:40:57 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 81.867 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:40:57 GMT
+remote-addr - GET /api/rentals/renter 404 34.537 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:41:01 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 62.011 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:41:02 GMT
+remote-addr - GET /api/rentals/renter 404 29.345 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:41:05 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 59.710 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:41:05 GMT
+remote-addr - GET /api/rentals/renter 404 23.062 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:41:09 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 78.635 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:41:09 GMT
+remote-addr - GET /api/rentals/renter 404 40.576 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:41:16 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 73.678 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:41:16 GMT
+remote-addr - GET /api/rentals/renter 404 30.584 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:41:19 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 47.538 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:41:20 GMT
+remote-addr - GET /api/user//check-auth 304 15.610 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:41:43 GMT
+remote-addr - GET /api/cars 304 12.059 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:41:44 GMT
+remote-addr - GET /api/rentals/renter 404 11.168 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:41:47 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 45.620 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:41:47 GMT
+remote-addr - GET /api/rentals/renter 404 15.010 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:41:49 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 38.036 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:41:49 GMT
+remote-addr - GET /api/rentals/renter 404 24.545 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:41:49 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 38.517 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:41:49 GMT
+remote-addr - GET /api/rentals/renter 404 13.586 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:42:00 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 35.525 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:42:00 GMT
+remote-addr - GET /api/rentals/renter 404 18.711 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:42:03 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 47.730 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:42:03 GMT
+remote-addr - GET /api/rentals/renter 404 8.012 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:42:03 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 31.424 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:42:03 GMT
+remote-addr - GET /api/user//check-auth 304 290.711 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:46:02 GMT
+remote-addr - GET /api/cars 304 53.876 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:46:03 GMT
+remote-addr - GET /api/cars 304 60.101 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:46:11 GMT
+remote-addr - GET /api/rentals/renter 404 67.983 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:46:13 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 137.987 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:46:13 GMT
+remote-addr - GET /api/rentals/renter 404 19.461 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:46:15 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 51.454 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:46:15 GMT
+remote-addr - GET /api/cars 200 194.673 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:47:26 GMT
+remote-addr - POST /api/user/login 200 567.954 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:47:59 GMT
+remote-addr - GET /api/cars 304 73.441 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:48:00 GMT
+remote-addr - GET /api/rentals/renter 404 48.153 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:48:08 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 200 94.035 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:48:09 GMT
+remote-addr - GET /api/rentals/renter 404 13.970 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:48:11 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 36.231 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:48:11 GMT
+remote-addr - GET /api/rentals/renter 404 12.369 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:48:12 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 46.330 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:48:12 GMT
+remote-addr - GET /api/rentals/renter 404 22.138 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:48:24 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 36.917 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:48:24 GMT
+remote-addr - GET /api/rentals/renter 404 10.870 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:48:26 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 34.591 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:48:26 GMT
+remote-addr - GET /api/rentals/renter 404 12.043 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Mon, 28 Jul 2025 15:48:27 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 304 62.721 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:48:27 GMT
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 200 88.765 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:48:49 GMT
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 304 16.165 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:48:49 GMT
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 304 8.150 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:48:58 GMT
+remote-addr - POST /api/rentals 200 1265.368 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:00 GMT
+remote-addr - GET /api/cars 304 11.960 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:20 GMT
+remote-addr - GET /api/rentals/renter 200 59.120 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:23 GMT
+remote-addr - GET /api/rentals/owner 200 79.594 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:23 GMT
+remote-addr - GET /api/rentals/renter 304 18.920 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:26 GMT
+remote-addr - GET /api/rentals/owner 304 31.215 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:26 GMT
+remote-addr - GET /api/rentals/renter 304 21.977 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:26 GMT
+remote-addr - GET /api/rentals/owner 304 61.019 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:26 GMT
+remote-addr - GET /api/rentals/renter 304 26.966 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:43 GMT
+remote-addr - GET /api/rentals/owner 304 44.108 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:43 GMT
+remote-addr - GET /api/rentals/renter 304 17.460 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:47 GMT
+remote-addr - GET /api/rentals/owner 304 35.197 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:47 GMT
+remote-addr - GET /api/rentals/renter 304 20.173 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:48 GMT
+remote-addr - GET /api/rentals/owner 304 40.184 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:49:48 GMT
+remote-addr - GET /api/rentals/renter 200 171.946 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:52:31 GMT
+remote-addr - GET /api/rentals/owner 304 61.673 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:52:31 GMT
+remote-addr - GET /api/rentals/renter 304 46.264 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:52:33 GMT
+remote-addr - GET /api/rentals/owner 304 69.684 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:52:33 GMT
+remote-addr - GET /api/rentals/renter 304 30.518 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:52:33 GMT
+remote-addr - GET /api/rentals/owner 304 65.402 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:52:33 GMT
+remote-addr - GET /api/rentals/renter 304 48.494 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:52:41 GMT
+remote-addr - GET /api/rentals/owner 304 36.989 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:52:41 GMT
+remote-addr - GET /api/rentals/renter 304 199.771 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:04 GMT
+remote-addr - GET /api/rentals/owner 304 59.335 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:04 GMT
+remote-addr - GET /api/rentals/renter 304 30.871 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:04 GMT
+remote-addr - GET /api/rentals/owner 304 167.536 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:05 GMT
+remote-addr - GET /api/user//check-auth 200 20.445 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:15 GMT
+remote-addr - GET /api/cars 304 37.524 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:16 GMT
+remote-addr - GET /api/cars 304 30.971 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:16 GMT
+remote-addr - GET /api/rentals/renter 304 40.169 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:20 GMT
+remote-addr - GET /api/rentals/owner 304 69.350 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:20 GMT
+remote-addr - GET /api/rentals/renter 304 23.656 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:21 GMT
+remote-addr - GET /api/rentals/owner 304 36.603 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:21 GMT
+remote-addr - GET /api/user//check-auth 304 17.524 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:32 GMT
+remote-addr - GET /api/cars 304 7.613 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:32 GMT
+remote-addr - GET /api/cars 304 21.523 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:32 GMT
+remote-addr - GET /api/rentals/renter 304 21.223 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:34 GMT
+remote-addr - GET /api/rentals/owner 304 49.829 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:34 GMT
+remote-addr - GET /api/rentals/renter 304 26.027 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:36 GMT
+remote-addr - GET /api/rentals/owner 304 32.699 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:53:36 GMT
+remote-addr - GET /api/user//check-auth 304 153.283 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:54:59 GMT
+remote-addr - GET /api/cars 304 34.697 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:00 GMT
+remote-addr - GET /api/cars 304 8.410 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:00 GMT
+remote-addr - GET /api/rentals/renter 304 85.649 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:03 GMT
+remote-addr - GET /api/rentals/owner 200 44.851 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:03 GMT
+remote-addr - GET /api/cars 304 6.228 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:04 GMT
+remote-addr - GET /api/user//check-auth 304 144.345 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:16 GMT
+remote-addr - GET /api/cars 304 57.791 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:17 GMT
+remote-addr - GET /api/cars 304 9.794 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:17 GMT
+remote-addr - GET /api/rentals/renter 304 172.089 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:21 GMT
+remote-addr - GET /api/rentals/owner 304 72.677 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:21 GMT
+remote-addr - GET /api/rentals/renter 304 29.498 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:23 GMT
+remote-addr - GET /api/rentals/owner 304 21.683 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:24 GMT
+remote-addr - GET /api/rentals/renter 304 14.023 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:24 GMT
+remote-addr - GET /api/rentals/owner 304 25.693 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:24 GMT
+remote-addr - PATCH /api/rentals/updateview 200 181.064 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:24 GMT
+remote-addr - PATCH /api/rentals/updateview 200 10.006 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:24 GMT
+remote-addr - PATCH /api/rentals/updateview 200 18.396 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:24 GMT
+remote-addr - PATCH /api/rentals/updateview 200 17.249 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:24 GMT
+remote-addr - PATCH /api/rentals/updateview 200 17.938 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:24 GMT
+remote-addr - GET /api/rentals/renter 304 24.005 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:32 GMT
+remote-addr - GET /api/rentals/owner 200 32.077 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 15:55:32 GMT
+remote-addr - GET /api/cars 200 831.961 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:50:33 GMT
+remote-addr - POST /api/user/login 200 607.328 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:50:53 GMT
+remote-addr - GET /api/cars 304 15.905 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:50:53 GMT
+remote-addr - GET /api/rentals/renter 200 71.881 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:50:58 GMT
+remote-addr - GET /api/rentals/owner 200 61.765 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:50:58 GMT
+remote-addr - GET /api/rentals/renter 304 52.772 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:51:01 GMT
+remote-addr - GET /api/rentals/owner 304 107.862 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:51:02 GMT
+remote-addr - GET /api/rentals/renter 304 26.621 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:51:02 GMT
+remote-addr - GET /api/rentals/owner 304 54.712 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:51:02 GMT
+remote-addr - PATCH /api/rentals/updateview 200 75.602 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:51:02 GMT
+remote-addr - GET /api/rentals/renter 304 51.265 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:51:18 GMT
+remote-addr - GET /api/rentals/owner 200 44.656 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:51:18 GMT
+remote-addr - GET /api/rentals/renter 304 20.392 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:51:20 GMT
+remote-addr - GET /api/rentals/owner 304 53.812 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:51:21 GMT
+remote-addr - GET /api/rentals/renter 304 45.207 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:51:21 GMT
+remote-addr - GET /api/rentals/owner 304 71.997 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:51:21 GMT
+remote-addr - GET /api/user//check-auth 200 21.702 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:13 GMT
+remote-addr - GET /api/cars 304 55.222 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:16 GMT
+remote-addr - GET /api/cars 304 13.695 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:19 GMT
+remote-addr - GET /api/rentals/renter 304 69.116 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:22 GMT
+remote-addr - GET /api/rentals/owner 304 91.576 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:23 GMT
+remote-addr - GET /api/rentals/renter 304 61.099 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:24 GMT
+remote-addr - GET /api/rentals/owner 304 60.890 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:24 GMT
+remote-addr - GET /api/rentals/renter 304 36.125 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:28 GMT
+remote-addr - GET /api/rentals/owner 304 53.137 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:28 GMT
+remote-addr - GET /api/cars 304 8.453 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:29 GMT
+remote-addr - GET /api/user//check-auth 304 10.191 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:39 GMT
+remote-addr - GET /api/cars 304 10.076 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:40 GMT
+remote-addr - GET /api/cars 304 13.723 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:40 GMT
+remote-addr - GET /api/rentals/renter 304 32.689 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:43 GMT
+remote-addr - GET /api/rentals/owner 304 29.327 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:43 GMT
+remote-addr - GET /api/rentals/renter 304 13.844 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:45 GMT
+remote-addr - GET /api/rentals/owner 304 32.229 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:45 GMT
+remote-addr - GET /api/rentals/renter 304 13.836 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:45 GMT
+remote-addr - GET /api/rentals/owner 304 32.701 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:52:45 GMT
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 200 139.917 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:53:06 GMT
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 304 25.812 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Mon, 28 Jul 2025 18:53:06 GMT
+remote-addr - GET /api/cars 200 376.896 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:52:55 GMT
+remote-addr - POST /api/user/login 200 1199.761 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:53:46 GMT
+remote-addr - GET /api/cars 304 47.655 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:53:47 GMT
+remote-addr - GET /api/rentals/renter 200 131.855 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:53:51 GMT
+remote-addr - GET /api/rentals/owner 200 64.376 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:53:51 GMT
+remote-addr - GET /api/user//check-auth 200 9.435 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:54:41 GMT
+remote-addr - GET /api/cars 304 8.229 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:54:42 GMT
+remote-addr - GET /api/cars 304 8.341 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:54:42 GMT
+remote-addr - GET /api/rentals/renter 304 35.706 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:54:45 GMT
+remote-addr - GET /api/rentals/owner 200 69.895 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:54:45 GMT
+remote-addr - GET /api/rentals/renter 304 34.252 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:54:48 GMT
+remote-addr - GET /api/rentals/owner 304 115.809 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:54:49 GMT
+remote-addr - GET /api/rentals/renter 304 36.303 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:54:49 GMT
+remote-addr - GET /api/rentals/owner 304 53.159 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:54:49 GMT
+remote-addr - PATCH /api/rentals/updateview 200 60.274 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:54:49 GMT
+remote-addr - GET /api/rentals/renter 304 37.475 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:55:06 GMT
+remote-addr - GET /api/rentals/owner 200 41.103 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:55:07 GMT
+remote-addr - GET /api/rentals/renter 304 23.126 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:55:08 GMT
+remote-addr - GET /api/rentals/owner 304 33.995 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:55:08 GMT
+remote-addr - GET /api/rentals/renter 304 23.197 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:55:08 GMT
+remote-addr - GET /api/rentals/owner 304 41.868 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:55:08 GMT
+remote-addr - GET /api/rentals/renter 304 29.057 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:55:26 GMT
+remote-addr - GET /api/rentals/owner 304 41.223 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 05:55:26 GMT
+remote-addr - POST /api/user/login 200 272.144 ms Thunder Client (https://www.thunderclient.com) Tue, 29 Jul 2025 06:03:50 GMT
+remote-addr - GET /api/cars/user 200 67.200 ms Thunder Client (https://www.thunderclient.com) Tue, 29 Jul 2025 06:04:31 GMT
+remote-addr - GET /api/user//check-auth 401 23.866 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:11:06 GMT -error-message: -
+remote-addr - GET /api/cars 304 167.521 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:11:07 GMT
+remote-addr - GET /api/cars 304 11.912 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:11:07 GMT
+remote-addr - GET /api/rentals/renter 401 7.199 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:11:10 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 2.110 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:11:11 GMT -error-message: -
+remote-addr - GET /api/cars 304 26.415 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:11:12 GMT
+remote-addr - POST /api/user/login 200 484.669 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:11:28 GMT
+remote-addr - GET /api/cars 304 18.371 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:11:29 GMT
+remote-addr - GET /api/rentals/renter 401 1.659 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:11:33 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 1.214 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:11:33 GMT -error-message: -
+remote-addr - GET /api/cars/user 401 3.023 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:11:35 GMT -error-message: -
+remote-addr - GET /api/cars/user 401 1.331 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:11:37 GMT -error-message: -
+remote-addr - GET /api/cars/user 401 1.352 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:11:38 GMT -error-message: -
+remote-addr - GET /api/cars/user 200 122.786 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:11:58 GMT
+remote-addr - GET /api/user//check-auth 304 23.221 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:12:40 GMT
+remote-addr - GET /api/cars 304 27.336 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:12:42 GMT
+remote-addr - GET /api/cars 304 11.120 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:12:42 GMT
+remote-addr - GET /api/rentals/renter 304 113.243 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:12:45 GMT
+remote-addr - GET /api/rentals/owner 304 80.736 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:12:45 GMT
+remote-addr - GET /api/user//check-auth 304 187.381 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:13:14 GMT
+remote-addr - GET /api/cars 304 92.965 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:13:15 GMT
+remote-addr - GET /api/cars 304 49.847 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:13:15 GMT
+remote-addr - GET /api/rentals/renter 304 101.741 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:13:19 GMT
+remote-addr - GET /api/rentals/owner 304 124.142 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:13:19 GMT
+remote-addr - GET /api/user//check-auth 304 22.406 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:13:35 GMT
+remote-addr - GET /api/cars 304 13.268 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:13:36 GMT
+remote-addr - GET /api/rentals/renter 304 40.945 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:13:39 GMT
+remote-addr - GET /api/rentals/owner 304 74.122 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:13:39 GMT
+remote-addr - GET /api/cars/user 304 26.040 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:13:41 GMT
+remote-addr - GET /api/user//check-auth 304 211.585 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:18:49 GMT
+remote-addr - GET /api/cars 304 85.547 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:18:50 GMT
+remote-addr - GET /api/cars 304 72.366 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:18:50 GMT
+remote-addr - GET /api/rentals/renter 304 87.064 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:18:54 GMT
+remote-addr - GET /api/rentals/owner 304 44.661 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:18:54 GMT
+remote-addr - GET /api/cars 304 11.532 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:18:55 GMT
+remote-addr - POST /api/user/login 200 380.613 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:15 GMT
+remote-addr - GET /api/cars 304 9.827 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:16 GMT
+remote-addr - GET /api/rentals/renter 304 22.702 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:19 GMT
+remote-addr - GET /api/rentals/owner 304 85.481 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:20 GMT
+remote-addr - GET /api/cars/user 304 19.795 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:22 GMT
+remote-addr - GET /api/user//check-auth 304 8.281 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:42 GMT
+remote-addr - GET /api/cars 304 6.874 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:43 GMT
+remote-addr - GET /api/cars 304 7.978 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:44 GMT
+remote-addr - GET /api/rentals/renter 304 28.374 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:46 GMT
+remote-addr - GET /api/rentals/owner 304 33.328 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:46 GMT
+remote-addr - GET /api/user//check-auth 304 9.632 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:57 GMT
+remote-addr - GET /api/cars 304 5.326 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:57 GMT
+remote-addr - GET /api/cars 304 3.319 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:57 GMT
+remote-addr - GET /api/rentals/renter 304 25.300 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:59 GMT
+remote-addr - GET /api/rentals/owner 304 40.955 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:19:59 GMT
+remote-addr - GET /api/cars 304 3.991 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:20:01 GMT
+remote-addr - GET /api/rentals/renter 304 22.333 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:20:02 GMT
+remote-addr - GET /api/rentals/owner 304 27.168 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:20:02 GMT
+remote-addr - GET /api/cars/user 304 8.987 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:20:05 GMT
+remote-addr - GET /api/user//check-auth 304 7.200 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:20:31 GMT
+remote-addr - GET /api/cars 304 2.726 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:20:31 GMT
+remote-addr - GET /api/rentals/renter 304 18.377 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:20:37 GMT
+remote-addr - GET /api/rentals/owner 304 24.722 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:20:37 GMT
+remote-addr - GET /api/cars/user 304 5.511 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:20:39 GMT
+remote-addr - GET /api/user//check-auth 304 6.082 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:20:59 GMT
+remote-addr - GET /api/cars 304 4.196 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:20:59 GMT
+remote-addr - GET /api/user//check-auth 304 54.575 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:21:14 GMT
+remote-addr - GET /api/cars 304 10.188 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:21:15 GMT
+remote-addr - GET /api/cars 304 5.803 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:21:15 GMT
+remote-addr - GET /api/rentals/renter 304 258.445 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:28:10 GMT
+remote-addr - GET /api/rentals/owner 304 40.749 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:28:10 GMT
+remote-addr - GET /api/cars 304 14.905 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:28:11 GMT
+remote-addr - POST /api/user/login 200 158.341 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:28:52 GMT
+remote-addr - GET /api/cars 304 6.575 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:28:53 GMT
+remote-addr - GET /api/rentals/renter 200 28.054 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:28:54 GMT
+remote-addr - GET /api/rentals/owner 404 20.784 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:28:54 GMT -error-message: -
+remote-addr - POST /api/cars 201 191.825 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:29:24 GMT
+remote-addr - GET /api/cars 200 5.881 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:29:24 GMT
+remote-addr - GET /api/rentals/renter 304 34.570 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:29:26 GMT
+remote-addr - GET /api/rentals/owner 404 8.891 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:29:26 GMT -error-message: -
+remote-addr - GET /api/cars/user 200 10.518 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:29:28 GMT
+remote-addr - GET /api/user//check-auth 200 7.600 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:29:53 GMT
+remote-addr - GET /api/cars 304 5.553 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:29:53 GMT
+remote-addr - GET /api/cars 304 7.004 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:29:53 GMT
+remote-addr - GET /api/rentals/renter 304 20.039 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:29:57 GMT
+remote-addr - GET /api/rentals/owner 404 12.142 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:29:57 GMT -error-message: -
+remote-addr - GET /api/cars 304 5.157 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:29:59 GMT
+remote-addr - GET /api/rentals/renter 304 20.824 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:00 GMT
+remote-addr - GET /api/rentals/owner 404 8.944 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:30:00 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 304 21.886 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:06 GMT
+remote-addr - GET /api/rentals/owner 404 14.302 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:30:06 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 7.001 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:08 GMT
+remote-addr - GET /api/user//check-auth 304 7.769 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:24 GMT
+remote-addr - GET /api/cars 304 4.441 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:24 GMT
+remote-addr - GET /api/cars 304 10.595 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:24 GMT
+remote-addr - GET /api/rentals/renter 304 29.225 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:31 GMT
+remote-addr - GET /api/rentals/owner 404 13.741 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:30:31 GMT -error-message: -
+remote-addr - GET /api/user//check-auth 304 9.004 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:41 GMT
+remote-addr - GET /api/cars 304 3.820 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:41 GMT
+remote-addr - GET /api/cars 304 5.950 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:41 GMT
+remote-addr - GET /api/rentals/renter 304 29.180 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:43 GMT
+remote-addr - GET /api/rentals/owner 404 9.279 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:30:43 GMT -error-message: -
+remote-addr - GET /api/user//check-auth 304 10.602 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:47 GMT
+remote-addr - GET /api/cars 304 4.772 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:47 GMT
+remote-addr - GET /api/cars 304 5.948 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:47 GMT
+remote-addr - GET /api/rentals/renter 304 21.460 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:48 GMT
+remote-addr - GET /api/rentals/owner 404 8.493 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:30:49 GMT -error-message: -
+remote-addr - GET /api/cars 304 6.033 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:50 GMT
+remote-addr - GET /api/user//check-auth 304 13.914 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:30:59 GMT
+remote-addr - GET /api/cars 304 6.721 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:31:00 GMT
+remote-addr - GET /api/cars 304 4.764 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:31:00 GMT
+remote-addr - GET /api/rentals/renter 304 25.701 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:31:02 GMT
+remote-addr - GET /api/rentals/owner 404 7.935 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 06:31:02 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 6.603 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:31:03 GMT
+remote-addr - GET /api/user//check-auth 304 6.637 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:31:08 GMT
+remote-addr - GET /api/cars 304 7.502 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:31:09 GMT
+remote-addr - GET /api/cars 304 4.540 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 06:31:09 GMT
+remote-addr - GET /api/cars 200 262.777 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:38:19 GMT
+remote-addr - POST /api/user/login 200 320.900 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:39:23 GMT
+remote-addr - GET /api/cars 304 11.739 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:39:24 GMT
+remote-addr - GET /api/rentals/renter 200 103.412 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:39:29 GMT
+remote-addr - GET /api/rentals/owner 404 20.460 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:39:29 GMT -error-message: -
+remote-addr - POST /api/cars 201 367.654 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:40:26 GMT
+remote-addr - GET /api/cars 200 35.366 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:40:27 GMT
+remote-addr - GET /api/rentals/renter 304 98.839 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:40:29 GMT
+remote-addr - GET /api/rentals/owner 404 19.688 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:40:29 GMT -error-message: -
+remote-addr - GET /api/cars/user 200 26.738 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:40:31 GMT
+remote-addr - GET /api/user//uploads/photo_1_2025-07-29_09-28-30-20250729T06292.jpg 404 16.258 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:40:31 GMT -error-message: Not found
+remote-addr - GET /api/user//uploads/photo_1_2025-07-29_09-28-30-20250729T07402.jpg 404 3.990 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:40:31 GMT -error-message: Not found
+remote-addr - GET /api/user//check-auth 200 442.209 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:46:23 GMT
+remote-addr - GET /api/cars 304 256.711 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:46:26 GMT
+remote-addr - GET /api/cars 304 142.961 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:46:27 GMT
+remote-addr - GET /api/rentals/renter 304 429.007 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:46:27 GMT
+remote-addr - GET /api/cars 304 34.920 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:46:29 GMT
+remote-addr - GET /api/rentals/owner 404 848.003 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:46:30 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 304 95.215 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:46:32 GMT
+remote-addr - GET /api/rentals/owner 404 63.954 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:46:33 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 55.402 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:46:36 GMT
+remote-addr - GET /api/user//uploads/photo_1_2025-07-29_09-28-30-20250729T06292.jpg 404 14.769 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:46:36 GMT -error-message: Not found
+remote-addr - GET /api/user//uploads/photo_1_2025-07-29_09-28-30-20250729T07402.jpg 404 4.095 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:46:36 GMT -error-message: Not found
+remote-addr - GET /api/user//check-auth 304 113.066 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:49:08 GMT
+remote-addr - GET /api/cars 304 39.243 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:49:08 GMT
+remote-addr - GET /api/cars 304 16.462 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:49:30 GMT
+remote-addr - GET /api/rentals/renter 304 107.099 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:49:30 GMT
+remote-addr - GET /api/rentals/owner 404 52.055 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:49:30 GMT -error-message: -
+remote-addr - GET /api/cars 304 24.044 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:49:32 GMT
+remote-addr - POST /api/user/login 200 209.633 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:49:47 GMT
+remote-addr - GET /api/cars 304 16.858 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:49:47 GMT
+remote-addr - GET /api/rentals/renter 304 47.048 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:49:51 GMT
+remote-addr - GET /api/rentals/owner 404 55.267 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:49:51 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 14.354 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:49:52 GMT
+remote-addr - GET /api/user//uploads/photo_1_2025-07-29_09-28-30-20250729T06292.jpg 404 17.742 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:49:52 GMT -error-message: Not found
+remote-addr - GET /api/user//uploads/photo_1_2025-07-29_09-28-30-20250729T07402.jpg 404 9.388 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:49:52 GMT -error-message: Not found
+remote-addr - GET /api/user//check-auth 304 139.913 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:51:09 GMT
+remote-addr - GET /api/cars 304 52.194 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:51:10 GMT
+remote-addr - GET /api/cars 304 28.109 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:51:10 GMT
+remote-addr - GET /api/rentals/renter 304 121.132 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:51:13 GMT
+remote-addr - GET /api/rentals/owner 404 25.092 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:51:13 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 304 53.573 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:51:21 GMT
+remote-addr - GET /api/rentals/owner 404 21.775 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:51:21 GMT -error-message: -
+remote-addr - GET /api/cars 304 13.751 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:51:23 GMT
+remote-addr - GET /api/rentals/renter 304 63.606 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:51:24 GMT
+remote-addr - GET /api/rentals/owner 404 36.767 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:51:25 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 26.676 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:51:26 GMT
+remote-addr - GET /api/rentals/renter 304 117.033 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:51:39 GMT
+remote-addr - GET /api/rentals/owner 404 37.351 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:51:40 GMT -error-message: -
+remote-addr - POST /api/cars 201 202.889 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:52:02 GMT
+remote-addr - GET /api/cars 200 9.129 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:52:03 GMT
+remote-addr - GET /api/rentals/renter 304 275.472 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:52:14 GMT
+remote-addr - GET /api/rentals/owner 404 26.576 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 07:52:14 GMT -error-message: -
+remote-addr - GET /api/cars/user 200 32.318 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 07:52:15 GMT
+remote-addr - GET /api/rentals/renter 401 564.285 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:07:30 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 401 29.900 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:07:31 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 32.927 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:07:31 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 75.529 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:07:31 GMT -error-message: -
+remote-addr - GET /api/cars 200 3289.267 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:07:38 GMT
+remote-addr - POST /api/user/signup 500 764.071 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:09:18 GMT -error-message: E11000 duplicate key error collection: blog.users index: phone_number_1 dup key: { phone_number: "0951383935" }
+remote-addr - POST /api/user/signup 500 264.456 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:09:25 GMT -error-message: E11000 duplicate key error collection: blog.users index: phone_number_1 dup key: { phone_number: "0951383935" }
+remote-addr - POST /api/user/signup 500 197.019 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:09:56 GMT -error-message: E11000 duplicate key error collection: blog.users index: phone_number_1 dup key: { phone_number: "0951383935" }
+remote-addr - POST /api/user/login 500 395.232 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:10:52 GMT -error-message: Invalid credentials
+remote-addr - POST /api/user/login 500 554.106 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:10:56 GMT -error-message: Invalid credentials
+remote-addr - POST /api/user/login 500 511.686 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:10:59 GMT -error-message: Invalid credentials
+remote-addr - POST /api/user/login 500 668.806 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:11:03 GMT -error-message: Invalid credentials
+remote-addr - POST /api/user/login 200 1688.469 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:11:28 GMT
+remote-addr - GET /api/cars 304 233.200 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:11:30 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 200 225.162 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:11:52 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 103.343 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:11:52 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 39.668 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:12:14 GMT
+remote-addr - POST /api/rentals 200 5183.618 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:12:20 GMT
+remote-addr - GET /api/cars 304 188.934 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:13:46 GMT
+remote-addr - GET /api/rentals/renter 200 171.173 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:13:49 GMT
+remote-addr - GET /api/rentals/owner 404 18.766 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:13:49 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 304 138.271 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:13:51 GMT
+remote-addr - GET /api/rentals/owner 404 30.118 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:13:52 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 304 89.610 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:13:52 GMT
+remote-addr - GET /api/rentals/owner 404 32.583 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:13:52 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 304 99.113 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:14:04 GMT
+remote-addr - GET /api/rentals/owner 404 16.414 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 08:14:04 GMT -error-message: -
+remote-addr - GET /api/cars 304 23.808 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:14:16 GMT
+remote-addr - POST /api/user/login 200 366.684 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:14:41 GMT
+remote-addr - GET /api/cars 304 24.818 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:14:42 GMT
+remote-addr - GET /api/rentals/renter 200 93.200 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:14:46 GMT
+remote-addr - GET /api/rentals/owner 200 126.953 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:14:46 GMT
+remote-addr - GET /api/rentals/renter 304 60.931 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:14:49 GMT
+remote-addr - GET /api/rentals/owner 304 63.657 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:14:50 GMT
+remote-addr - GET /api/rentals/renter 304 49.550 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:14:50 GMT
+remote-addr - GET /api/rentals/owner 304 58.757 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:14:50 GMT
+remote-addr - PATCH /api/rentals/updateview 200 101.109 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:14:50 GMT
+remote-addr - GET /api/rentals/renter 304 64.618 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:15:02 GMT
+remote-addr - GET /api/rentals/owner 200 45.966 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:15:02 GMT
+remote-addr - GET /api/rentals/renter 304 57.528 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:15:11 GMT
+remote-addr - GET /api/rentals/owner 304 53.448 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:15:11 GMT
+remote-addr - POST /api/cars 201 331.996 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:16:01 GMT
+remote-addr - GET /api/cars 200 25.418 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:16:02 GMT
+remote-addr - GET /api/rentals/renter 304 66.244 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:16:23 GMT
+remote-addr - GET /api/rentals/owner 304 137.285 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:16:23 GMT
+remote-addr - GET /api/rentals/renter 304 62.811 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:16:24 GMT
+remote-addr - GET /api/rentals/owner 304 79.094 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:16:25 GMT
+remote-addr - GET /api/rentals/renter 304 34.301 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:16:25 GMT
+remote-addr - GET /api/rentals/owner 304 53.173 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 08:16:25 GMT
+remote-addr - GET /api/cars 200 168.659 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:24:56 GMT
+remote-addr - POST /api/user/login 200 319.825 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:26:29 GMT
+remote-addr - GET /api/cars 304 22.722 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:26:30 GMT
+remote-addr - GET /api/rentals/renter 200 120.393 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:26:42 GMT
+remote-addr - GET /api/rentals/owner 200 89.814 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:26:42 GMT
+remote-addr - GET /api/cars 304 9.326 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:26:45 GMT
+remote-addr - POST /api/user/login 200 246.209 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:27:57 GMT
+remote-addr - GET /api/cars 304 11.370 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:27:57 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 200 52.099 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:28:27 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 14.707 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:28:27 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 9.034 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:28:54 GMT
+remote-addr - POST /api/rentals 200 966.083 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:28:56 GMT
+remote-addr - GET /api/cars 304 5.644 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:29:17 GMT
+remote-addr - GET /api/rentals/renter 200 49.152 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:29:20 GMT
+remote-addr - GET /api/rentals/owner 200 28.378 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:29:20 GMT
+remote-addr - GET /api/rentals/renter 304 14.487 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:29:24 GMT
+remote-addr - GET /api/rentals/owner 304 65.907 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:29:24 GMT
+remote-addr - GET /api/rentals/renter 304 11.682 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:29:24 GMT
+remote-addr - GET /api/rentals/owner 304 21.529 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:29:24 GMT
+remote-addr - PATCH /api/rentals/updateview 200 33.980 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:29:24 GMT
+remote-addr - PATCH /api/rentals/updateview 200 11.410 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:29:24 GMT
+remote-addr - GET /api/rentals/renter 304 19.439 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:30:03 GMT
+remote-addr - GET /api/rentals/owner 200 28.982 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:30:03 GMT
+remote-addr - GET /api/cars/user 200 9.807 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:30:11 GMT
+remote-addr - GET /api/rentals/renter 401 55.596 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 11:46:59 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 1.463 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 11:46:59 GMT -error-message: -
+remote-addr - GET /api/cars 304 133.681 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:47:02 GMT
+remote-addr - POST /api/user/login 200 332.148 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:47:15 GMT
+remote-addr - GET /api/cars 304 11.931 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:47:15 GMT
+remote-addr - GET /api/rentals/future?carId=68888341c0600f1a61ee7dff 200 41.538 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:47:28 GMT
+remote-addr - GET /api/rentals/future?carId=68888341c0600f1a61ee7dff 304 5.808 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:47:28 GMT
+remote-addr - GET /api/rentals/future?carId=68888341c0600f1a61ee7dff 304 6.677 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:47:39 GMT
+remote-addr - POST /api/rentals 200 3507.167 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:47:43 GMT
+remote-addr - GET /api/cars 304 25.738 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:47:58 GMT
+remote-addr - GET /api/rentals/renter 200 53.819 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:00 GMT
+remote-addr - GET /api/rentals/owner 200 26.352 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:01 GMT
+remote-addr - GET /api/rentals/renter 304 21.752 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:03 GMT
+remote-addr - GET /api/rentals/owner 304 11.932 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:03 GMT
+remote-addr - GET /api/rentals/renter 304 7.939 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:04 GMT
+remote-addr - GET /api/rentals/owner 304 15.836 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:04 GMT
+remote-addr - PATCH /api/rentals/updateview 200 38.814 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:04 GMT
+remote-addr - GET /api/rentals/renter 304 94.465 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:42 GMT
+remote-addr - GET /api/rentals/owner 200 48.460 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:43 GMT
+remote-addr - GET /api/rentals/renter 304 14.150 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:44 GMT
+remote-addr - GET /api/rentals/owner 304 13.989 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:45 GMT
+remote-addr - GET /api/rentals/renter 304 10.808 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:45 GMT
+remote-addr - GET /api/rentals/owner 304 26.265 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:45 GMT
+remote-addr - PATCH /api/rentals/updateview 200 35.863 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:48:45 GMT
+remote-addr - GET /api/rentals/renter 304 22.225 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:49:04 GMT
+remote-addr - GET /api/rentals/owner 200 32.659 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:49:04 GMT
+remote-addr - GET /api/rentals/renter 304 224.115 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:51:05 GMT
+remote-addr - GET /api/rentals/owner 304 65.476 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:51:05 GMT
+remote-addr - GET /api/cars 304 22.249 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:51:07 GMT
+remote-addr - POST /api/user/login 200 581.524 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:52:17 GMT
+remote-addr - GET /api/cars 304 48.150 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:52:17 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 200 98.653 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:52:36 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 37.374 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:52:36 GMT
+remote-addr - GET /api/rentals/future?carId=686521469910072e97886860 304 15.843 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:52:47 GMT
+remote-addr - POST /api/rentals 200 2220.048 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:52:50 GMT
+remote-addr - GET /api/cars 304 31.855 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:52:58 GMT
+remote-addr - GET /api/rentals/renter 200 96.766 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:53:00 GMT
+remote-addr - GET /api/rentals/owner 404 20.413 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 11:53:00 GMT -error-message: -
+remote-addr - GET /api/cars 304 14.987 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:53:02 GMT
+remote-addr - POST /api/user/login 200 450.865 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:55:25 GMT
+remote-addr - GET /api/cars 304 46.079 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:55:26 GMT
+remote-addr - GET /api/rentals/renter 200 145.081 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:55:29 GMT
+remote-addr - GET /api/rentals/owner 200 52.975 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:55:29 GMT
+remote-addr - GET /api/rentals/renter 304 20.572 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:55:30 GMT
+remote-addr - GET /api/rentals/owner 304 23.871 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:55:31 GMT
+remote-addr - GET /api/rentals/renter 304 26.893 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:55:31 GMT
+remote-addr - GET /api/rentals/owner 304 50.240 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:55:31 GMT
+remote-addr - PATCH /api/rentals/updateview 200 67.384 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:55:31 GMT
+remote-addr - GET /api/rentals/renter 304 32.044 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:56:06 GMT
+remote-addr - GET /api/rentals/owner 200 26.064 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 11:56:06 GMT
+remote-addr - GET /api/user//check-auth 200 259.155 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:10:21 GMT
+remote-addr - GET /api/cars 304 83.274 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:10:25 GMT
+remote-addr - GET /api/cars 304 11.223 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:10:33 GMT
+remote-addr - GET /api/user//check-auth 401 66.529 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 12:11:01 GMT -error-message: -
+remote-addr - GET /api/cars 304 72.171 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:11:02 GMT
+remote-addr - GET /api/cars 304 12.634 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:11:05 GMT
+remote-addr - GET /api/rentals/renter 401 4.187 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 12:12:08 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 3.942 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 12:12:09 GMT -error-message: -
+remote-addr - GET /api/cars 304 9.917 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:12:12 GMT
+remote-addr - POST /api/user/login 500 157.689 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 12:12:35 GMT -error-message: Invalid credentials
+remote-addr - POST /api/user/login 200 220.514 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:12:44 GMT
+remote-addr - GET /api/cars 304 19.055 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:12:45 GMT
+remote-addr - GET /api/rentals/renter 200 274.140 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:13:19 GMT
+remote-addr - GET /api/rentals/owner 404 14.953 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 12:13:20 GMT -error-message: -
+remote-addr - POST /api/cars 201 149.957 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:13:46 GMT
+remote-addr - GET /api/cars 200 11.034 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:13:46 GMT
+remote-addr - GET /api/rentals/renter 304 40.828 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:13:51 GMT
+remote-addr - GET /api/rentals/owner 404 13.855 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 12:13:51 GMT -error-message: -
+remote-addr - GET /api/cars/user 200 15.133 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 12:13:55 GMT
+remote-addr - GET /api/cars 200 531.613 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 23:12:39 GMT
+remote-addr - POST /api/user/login 500 604.893 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 23:15:31 GMT -error-message: Invalid credentials
+remote-addr - POST /api/user/login 200 362.975 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 23:15:58 GMT
+remote-addr - GET /api/cars 304 40.039 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 23:15:58 GMT
+remote-addr - GET /api/rentals/renter 200 176.495 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 23:16:05 GMT
+remote-addr - GET /api/rentals/owner 404 22.043 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 23:16:05 GMT -error-message: -
+remote-addr - POST /api/cars 201 122.622 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 23:16:39 GMT
+remote-addr - GET /api/cars 200 8.461 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 23:16:41 GMT
+remote-addr - GET /api/rentals/renter 304 44.690 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 23:16:49 GMT
+remote-addr - GET /api/rentals/owner 404 24.042 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Tue, 29 Jul 2025 23:16:49 GMT -error-message: -
+remote-addr - GET /api/cars/user 200 18.962 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Tue, 29 Jul 2025 23:16:51 GMT
+remote-addr - POST /api/user/login 500 138.612 ms PostmanRuntime/7.39.1  Wed, 30 Jul 2025 00:03:18 GMT -error-message: Cannot destructure property 'email' of 'req.body' as it is undefined.
+remote-addr - POST /api/user/login 200 419.174 ms Thunder Client (https://www.thunderclient.com) Wed, 30 Jul 2025 09:20:45 GMT
+remote-addr - PUT /api/cars/68895657c0600f1a61ee7f10 400 43.265 ms Thunder Client (https://www.thunderclient.com)  Wed, 30 Jul 2025 09:22:36 GMT -error-message: -
+remote-addr - PUT /api/cars/68895657c0600f1a61ee7f10 403 80.408 ms Thunder Client (https://www.thunderclient.com)  Wed, 30 Jul 2025 09:26:17 GMT -error-message: -
+remote-addr - PUT /api/cars/68651bce3c4e4878692c52fa 200 74.165 ms Thunder Client (https://www.thunderclient.com) Wed, 30 Jul 2025 09:27:19 GMT
+remote-addr - PUT /api/cars/68651bce3c4e4878692c52fa 200 41.977 ms Thunder Client (https://www.thunderclient.com) Wed, 30 Jul 2025 09:27:29 GMT
+remote-addr - POST /api/user/login 200 187.823 ms Thunder Client (https://www.thunderclient.com) Wed, 30 Jul 2025 09:28:51 GMT
+remote-addr - DELETE /api/cars/68895657c0600f1a61ee7f10 500 16.019 ms Thunder Client (https://www.thunderclient.com)  Wed, 30 Jul 2025 09:29:22 GMT -error-message: -
+remote-addr - DELETE /api/cars/68895657c0600f1a61ee7f10 204 68.536 ms Thunder Client (https://www.thunderclient.com) Wed, 30 Jul 2025 09:30:47 GMT
+remote-addr - GET /api/cars 200 296.176 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:54:01 GMT
+remote-addr - POST /api/user/login 200 638.004 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:54:32 GMT
+remote-addr - GET /api/cars 304 24.002 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:54:33 GMT
+remote-addr - GET /api/rentals/renter 401 3.782 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 09:54:35 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 2.690 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 09:54:36 GMT -error-message: -
+remote-addr - GET /api/cars/user 401 1.590 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 09:54:37 GMT -error-message: -
+remote-addr - GET /api/cars/user 401 0.952 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 09:54:40 GMT -error-message: -
+remote-addr - GET /api/cars/user 200 143.904 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:55:59 GMT
+remote-addr - PUT /api/cars/6888baf9c0600f1a61ee7ef9 200 897.250 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:56:16 GMT
+remote-addr - GET /api/cars/user 200 83.300 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:56:18 GMT
+remote-addr - PUT /api/cars/6888baf9c0600f1a61ee7ef9 200 123.361 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:56:56 GMT
+remote-addr - GET /api/cars/user 304 74.737 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:56:57 GMT
+remote-addr - PUT /api/cars/6888baf9c0600f1a61ee7ef9 200 76.186 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:58:17 GMT
+remote-addr - GET /api/cars/user 304 31.908 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:58:18 GMT
+remote-addr - GET /api/user//check-auth 200 15.423 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:58:40 GMT
+remote-addr - GET /api/cars 200 18.367 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:58:41 GMT
+remote-addr - GET /api/cars 304 17.091 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:58:42 GMT
+remote-addr - GET /api/rentals/renter 200 135.074 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:58:50 GMT
+remote-addr - GET /api/rentals/owner 404 18.838 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 09:58:50 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 43.527 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:58:52 GMT
+remote-addr - DELETE /api/cars/6888baf9c0600f1a61ee7ef9 200 44.872 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:58:58 GMT
+remote-addr - GET /api/cars/user 200 33.484 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:58:58 GMT
+remote-addr - GET /api/rentals/renter 304 78.488 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 09:59:43 GMT
+remote-addr - GET /api/rentals/owner 404 25.614 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 09:59:43 GMT -error-message: -
+remote-addr - POST /api/cars 201 250.915 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:00:07 GMT
+remote-addr - GET /api/cars 200 12.722 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:00:08 GMT
+remote-addr - GET /api/rentals/renter 304 88.886 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:00:13 GMT
+remote-addr - GET /api/rentals/owner 404 29.668 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:00:13 GMT -error-message: -
+remote-addr - GET /api/cars/user 200 18.237 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:00:16 GMT
+remote-addr - GET /api/user//check-auth 304 26.629 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:01:51 GMT
+remote-addr - GET /api/cars 304 23.336 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:01:52 GMT
+remote-addr - GET /api/cars 304 12.449 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:01:52 GMT
+remote-addr - GET /api/rentals/renter 304 113.683 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:01:54 GMT
+remote-addr - GET /api/rentals/owner 404 21.240 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:01:54 GMT -error-message: -
+remote-addr - GET /api/cars 304 11.703 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:01:55 GMT
+remote-addr - GET /api/rentals/renter 304 58.346 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:01:58 GMT
+remote-addr - GET /api/rentals/owner 404 22.436 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:01:58 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 13.671 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:01:59 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 196.052 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:02:28 GMT
+remote-addr - GET /api/cars/user 304 15.420 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:02:28 GMT
+remote-addr - GET /api/rentals/renter 304 733.113 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:07:46 GMT
+remote-addr - GET /api/rentals/owner 404 149.942 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:07:47 GMT -error-message: -
+remote-addr - GET /api/cars 304 200.422 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:07:48 GMT
+remote-addr - POST /api/user/login 200 1328.951 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:08:03 GMT
+remote-addr - GET /api/cars 304 34.196 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:08:04 GMT
+remote-addr - GET /api/rentals/renter 304 186.303 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:12:06 GMT
+remote-addr - GET /api/rentals/owner 404 26.448 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:12:06 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 34.478 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:12:08 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 141.810 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:12:31 GMT
+remote-addr - GET /api/cars/user 304 47.567 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:12:32 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 193.696 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:13:30 GMT
+remote-addr - GET /api/cars/user 304 33.464 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:13:31 GMT
+remote-addr - GET /api/rentals/renter 401 18.150 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:31:20 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 3.830 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:31:20 GMT -error-message: -
+remote-addr - GET /api/cars 304 59.801 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:31:21 GMT
+remote-addr - POST /api/user/login 200 264.512 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:31:40 GMT
+remote-addr - GET /api/cars 304 9.947 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:31:40 GMT
+remote-addr - GET /api/rentals/renter 304 99.693 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:31:43 GMT
+remote-addr - GET /api/rentals/owner 404 13.072 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:31:43 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 13.289 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:31:44 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 140.907 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:32:15 GMT
+remote-addr - GET /api/cars/user 200 11.508 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:32:16 GMT
+remote-addr - GET /api/rentals/renter 304 43.961 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:32:32 GMT
+remote-addr - GET /api/rentals/owner 404 13.977 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:32:32 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 10.041 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:32:34 GMT
+remote-addr - GET /api/rentals/renter 304 917.207 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:41:00 GMT
+remote-addr - GET /api/rentals/owner 404 112.504 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:41:00 GMT -error-message: -
+remote-addr - GET /api/user//check-auth 304 167.914 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:41:16 GMT
+remote-addr - GET /api/cars 200 26.817 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:41:17 GMT
+remote-addr - GET /api/cars 304 19.688 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:41:18 GMT
+remote-addr - GET /api/rentals/renter 304 63.767 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:41:21 GMT
+remote-addr - GET /api/rentals/owner 404 19.366 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:41:21 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 14.120 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:41:25 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 152.674 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:41:47 GMT
+remote-addr - GET /api/cars/user 200 32.799 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:41:48 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 341.792 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:42:56 GMT
+remote-addr - GET /api/cars/user 200 65.650 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:42:57 GMT
+remote-addr - GET /api/user//check-auth 401 93.819 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:51:58 GMT -error-message: -
+remote-addr - GET /api/cars 200 134.309 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:51:59 GMT
+remote-addr - GET /api/cars 304 24.201 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:51:59 GMT
+remote-addr - GET /api/rentals/renter 401 5.464 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:52:01 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 6.207 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:52:01 GMT -error-message: -
+remote-addr - GET /api/cars 304 23.480 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:52:03 GMT
+remote-addr - GET /api/rentals/renter 401 4.489 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:52:07 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 6.534 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:52:07 GMT -error-message: -
+remote-addr - GET /api/cars/user 401 12.751 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:52:10 GMT -error-message: -
+remote-addr - GET /api/rentals/renter 401 3.580 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:52:13 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 3.957 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:52:13 GMT -error-message: -
+remote-addr - GET /api/cars 304 10.643 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:52:15 GMT
+remote-addr - POST /api/user/login 200 496.724 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:52:31 GMT
+remote-addr - GET /api/cars 304 13.165 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:52:32 GMT
+remote-addr - GET /api/rentals/renter 304 175.739 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:52:35 GMT
+remote-addr - GET /api/rentals/owner 404 19.600 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:52:36 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 15.694 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:52:37 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 140.617 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:53:02 GMT
+remote-addr - GET /api/cars/user 200 29.820 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:53:03 GMT
+remote-addr - GET /api/user//check-auth 304 17.538 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:54:33 GMT
+remote-addr - GET /api/cars 200 5.062 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:54:33 GMT
+remote-addr - GET /api/cars 304 13.298 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:54:36 GMT
+remote-addr - GET /api/rentals/renter 304 62.289 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:54:38 GMT
+remote-addr - GET /api/rentals/owner 404 15.305 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:54:38 GMT -error-message: -
+remote-addr - GET /api/cars 304 13.369 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:54:39 GMT
+remote-addr - GET /api/rentals/renter 304 71.871 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:54:41 GMT
+remote-addr - GET /api/rentals/owner 404 46.705 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:54:41 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 10.973 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:54:42 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 71.681 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:55:07 GMT
+remote-addr - GET /api/cars/user 200 31.362 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:55:08 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 66.951 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:56:04 GMT
+remote-addr - GET /api/cars/user 200 22.052 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:56:05 GMT
+remote-addr - GET /api/user//check-auth 304 9.840 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:56:40 GMT
+remote-addr - GET /api/cars 200 11.210 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:56:41 GMT
+remote-addr - GET /api/rentals/renter 304 42.512 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:56:45 GMT
+remote-addr - GET /api/rentals/owner 404 24.424 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 10:56:45 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 11.264 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:56:46 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 151.168 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:57:04 GMT
+remote-addr - GET /api/cars/user 200 20.216 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:57:04 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 68.873 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:58:29 GMT
+remote-addr - GET /api/cars/user 200 24.986 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 10:58:29 GMT
+remote-addr - GET /api/user//check-auth 401 68.250 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 11:15:00 GMT -error-message: -
+remote-addr - GET /api/cars 200 116.152 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:15:01 GMT
+remote-addr - GET /api/cars 304 14.666 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:15:01 GMT
+remote-addr - GET /api/rentals/renter 401 3.634 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 11:15:02 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 2.963 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 11:15:02 GMT -error-message: -
+remote-addr - GET /api/cars 304 9.531 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:15:04 GMT
+remote-addr - POST /api/user/login 200 232.828 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:15:21 GMT
+remote-addr - GET /api/cars 304 7.790 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:15:22 GMT
+remote-addr - GET /api/rentals/renter 304 69.719 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:15:25 GMT
+remote-addr - GET /api/rentals/owner 404 19.835 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 11:15:25 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 13.301 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:15:28 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 400 52.304 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 11:15:38 GMT -error-message: -
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 410.026 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:16:17 GMT
+remote-addr - GET /api/cars/user 200 75.664 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:16:18 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 50.184 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:16:58 GMT
+remote-addr - GET /api/cars/user 200 25.662 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:16:58 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 261.890 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:21:50 GMT
+remote-addr - GET /api/cars/user 200 60.128 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:21:51 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 87.540 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:23:42 GMT
+remote-addr - GET /api/cars/user 200 58.774 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:23:43 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 52.982 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:24:00 GMT
+remote-addr - GET /api/cars/user 200 20.278 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:24:00 GMT
+remote-addr - GET /api/rentals/renter 401 18.548 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 11:37:44 GMT -error-message: -
+remote-addr - GET /api/rentals/owner 401 2.890 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 11:37:44 GMT -error-message: -
+remote-addr - GET /api/cars 200 55.002 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:37:45 GMT
+remote-addr - POST /api/user/login 200 236.292 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:38:04 GMT
+remote-addr - GET /api/cars 304 16.363 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:38:04 GMT
+remote-addr - GET /api/rentals/renter 304 93.609 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:38:07 GMT
+remote-addr - GET /api/rentals/owner 404 26.497 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36  Wed, 30 Jul 2025 11:38:07 GMT -error-message: -
+remote-addr - GET /api/cars/user 304 15.159 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:38:10 GMT
+remote-addr - PUT /api/cars/6889ed27e50421c52c9fc4f8 200 61.658 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:38:15 GMT
+remote-addr - GET /api/cars/user 304 15.745 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Wed, 30 Jul 2025 11:38:16 GMT

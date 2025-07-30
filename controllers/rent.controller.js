@@ -145,6 +145,7 @@ exports.getRentalsByOwner = async (req, res) => {
     const rentalDetails = rentals.map(rental => {
       const car = rental.car;
       const user = rental.user;
+      const _id = rental._id;
 
       // Extract details
       const carMake = car.make;
@@ -155,6 +156,7 @@ exports.getRentalsByOwner = async (req, res) => {
       const startDate = rental.startDate;
       const endDate = rental.endDate;
       const totalPrice = rental.totalPrice; // Assuming totalPrice is already calculated in the rental
+      const viewed = rental.viewed;
 
       return {
         car: {
@@ -167,9 +169,11 @@ exports.getRentalsByOwner = async (req, res) => {
           phone: renterPhone,
         },
         rental: {
+          _id,
           startDate,
           endDate,
           totalPrice,
+          viewed
         }
       };
     });
@@ -195,6 +199,7 @@ exports.getRentalsByRenter = async (req, res) => {
     const rentalDetails = rentals.map(rental => {
       const car = rental.car;
       const owner = rental.owner;
+      const _id = rental._id;
 
       // Extract details
       const carMake = car.make;
@@ -203,6 +208,7 @@ exports.getRentalsByRenter = async (req, res) => {
       const ownerName = `${owner.first_name} ${owner.last_name}`;
       const startDate = rental.startDate;
       const endDate = rental.endDate;
+      
 
       // Calculate the number of rental days
       const rentalDays = (new Date(endDate) - new Date(startDate)) / (1000 * 3600 * 24);
@@ -219,10 +225,11 @@ exports.getRentalsByRenter = async (req, res) => {
           phone: owner.phone_number,
         },
         rental: {
+          _id,
           startDate,
           endDate,
           rentalDays,
-          totalPrice,
+          totalPrice
         }
       };
     });

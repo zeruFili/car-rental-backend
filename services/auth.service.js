@@ -34,7 +34,7 @@ const createUser = async (email, password, first_name, last_name, phone_number) 
   user.refreshToken = refreshToken;
   await user.save();
 
-  // await sendVerificationEmail(user.email, user.verificationToken);
+  await sendVerificationEmail(user.email, user.verificationToken);
   console.log("Verification email sent successfully" , user.verificationToken);
 
   return { user, accessToken, refreshToken };
