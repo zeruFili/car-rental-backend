@@ -25,7 +25,7 @@ const forgotPasswordSchema = {
 
 const resetPasswordSchema = {
   body: joi.object().keys({
-   // Include token for password reset
+    // Include token for password reset
     password: joi.string().min(6).required(),
   }),
 };
@@ -51,6 +51,13 @@ const deleteUserSchema = {
   }),
 };
 
+// New refreshTokenSchema
+const refreshTokenSchema = {
+  body: joi.object().keys({
+    refreshToken: joi.string().required(), // Expecting refresh token in the request body
+  }),
+};
+
 module.exports = {
   signupSchema,
   loginSchema,
@@ -59,4 +66,5 @@ module.exports = {
   verifyEmailSchema,
   updateUserProfileSchema,
   deleteUserSchema,
+  refreshTokenSchema, 
 };

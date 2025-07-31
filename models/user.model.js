@@ -41,6 +41,9 @@ const userSchema = new mongoose.Schema(
 			enum: ['user', 'admin'],
 			default: 'user', // Default role is 'user'
 		},
+		refreshToken: { // Add this line
+			type: String,
+		},
 	},
 	{ timestamps: true }
 );

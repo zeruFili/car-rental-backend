@@ -10,8 +10,9 @@ const {
   updateUserProfile,
   getMyProfile,
   getAllUsers,
-  checkAuth, // Import the checkAuth function
-} = require("../controllers/auth.controller"); // Import all required controller functions
+  checkAuth, 
+  refreshAccessToken, 
+} = require("../controllers/auth.controller"); 
 
 const {
   signupSchema,
@@ -21,36 +22,44 @@ const {
   forgotPasswordSchema,
   resetPasswordSchema,
   verifyEmailSchema,
+  refreshTokenSchema
 } = require("../validations/auth.validation");
 const { protect, adminValidator } = require("../middleware/authMiddleware");
 const validate = require("../middleware/validate");
 
 const router = express.Router();
 
-// User registration
+
 router.post("/signup", validate(signupSchema), signup);
 
-// User login
+
 router.post("/login", validate(loginSchema), login);
 
-// Check authentication status
-router.get("//check-auth", protect, checkAuth); // Add the checkAuth route
 
-// Get user profile
+router.get("/check-auth", protect, checkAuth);
+
+
 router.get("/profile", protect, getMyProfile);
 
-// Update user profile
+
 router.put("/profile", protect, validate(updateUserProfileSchema), updateUserProfile);
 
-// Delete user (admin only)
+
 router.delete("/:id", protect, adminValidator, validate(deleteUserSchema), deleteUser);
 
-// Get all users
+
 router.get("/", protect, adminValidator, getAllUsers);
 
+
 router.post("/logout", logout);
+
+
 router.post("/verify-email", validate(verifyEmailSchema), verifyEmail);
+
 router.post("/forgot-password", validate(forgotPasswordSchema), forgotPassword);
+
 router.post("/reset-password/:token", validate(resetPasswordSchema), resetPassword);
+
+router.post("/refresh-token", validate(refreshTokenSchema), refreshAccessToken); 
 
 module.exports = router;

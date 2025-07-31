@@ -4,6 +4,32 @@ const setCookies = require("../utils/setCookies.js"); // Cookie setting logic
 const catchAsync = require("../utils/catchAsync.js");
 const crypto = require("crypto");
 const httpStatus = require("http-status"); // Assuming you're using a package for HTTP status codes
+const jwt = require("jsonwebtoken"); // Make sure to import jwt
+const generateTokens = require("../utils/generateTokens.js"); // Token generation logic
+
+const refreshAccessToken = catchAsync(async (req, res) => {
+    const { refreshToken } = req.body;
+
+    // Check if refresh token exists
+    if (!refreshToken) {
+        return res.status(401).json({ message: "No refresh token provided" });
+    }
+
+    // Verify refresh token
+    const decoded = jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET);
+    const user = await User.findById(decoded.userId);
+
+    // Check if user exists and refresh token matches
+    if (!user || user.refreshToken !== refreshToken) {
+        return res.status(403).json({ message: "Invalid refresh token" });
+    }
+
+    // Generate a new access token
+    const { accessToken } = generateTokens(user._id);
+    
+    // Send the new access token in response
+    res.json({ accessToken });
+});
 
 const signup = catchAsync(async (req, res) => {
   const { email, password, first_name, last_name, phone_number } = req.body;
@@ -27,12 +53,14 @@ const signup = catchAsync(async (req, res) => {
 const verifyEmail = catchAsync(async (req, res) => {
   const { code } = req.body;
 
-  const user = await authService.verifyUserEmail(code);
+  const { user, accessToken, refreshToken } = await authService.verifyUserEmail(code);
   await authService.sendWelcomeEmail(user.email, user.first_name);
 
   res.status(httpStatus.default.OK).json({
     success: true,
     message: "Email verified successfully",
+    accessToken,  
+    refreshToken,
     user: {
       _id: user._id,
       first_name: user.first_name,
@@ -47,6 +75,10 @@ const login = catchAsync(async (req, res) => {
 
   // Attempt to log in the user and get user info and tokens
   const { user, accessToken, refreshToken } = await authService.loginUser(email, password);
+  const userrefresh = user.refreshToken ;
+
+  console.log("login sending refresh token " , refreshToken)
+  console.log("users refresh token " , userrefresh) 
 
   // Set cookies with tokens
   setCookies(res, accessToken, refreshToken);
@@ -55,7 +87,8 @@ const login = catchAsync(async (req, res) => {
   res.status(httpStatus.default.OK).json({
     success: true,
     message: "Logged in successfully",
-    accessToken,  // Optionally include the refresh token if needed
+    accessToken,  
+    refreshToken,
     user: {
       _id: user._id,
       first_name: user.first_name,
@@ -145,5 +178,6 @@ module.exports = {
   updateUserProfile,
   getMyProfile,
   getAllUsers,
-  checkAuth, // Exporting checkAuth
+  checkAuth, 
+  refreshAccessToken
 };

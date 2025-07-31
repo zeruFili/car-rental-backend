@@ -53,6 +53,9 @@ const verifyUserEmail = async (code) => {
   user.isVerified = true;
   user.verificationToken = undefined;
   user.verificationTokenExpiresAt = undefined;
+  
+  user.refreshToken = refreshToken;
+  await user.save();
   await user.save();
 
   return user;
@@ -71,7 +74,14 @@ const loginUser = async (email, password) => {
 
   const { accessToken, refreshToken } = generateTokens(user._id);
   user.refreshToken = refreshToken;
-  await user.save();
+  console.log("login refresh token " , refreshToken)
+  try {
+    user.refreshToken = refreshToken; // Assign refresh token
+    await user.save(); // Save the user
+} catch (error) {
+    console.error("Error saving user with refresh token:", error);
+    throw new Error("Could not save user with refresh token");
+}
 
   return { user, accessToken, refreshToken };
 };
