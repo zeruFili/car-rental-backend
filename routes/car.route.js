@@ -1,28 +1,23 @@
 const express = require('express');
 const router = express.Router();
-const carController = require('../controllers/car.controller'); // Adjust the path as necessary
-const { protect } = require('../middleware/authMiddleware'); // Middleware to protect routes
+const carController = require('../controllers/car.controller'); 
+const { protect } = require('../middleware/authMiddleware'); 
 const { uploadFileMiddleware } = require("../middleware/uploadMiddleware");
+const validate = require("../middleware/validate"); 
+const {
+  createCarSchema,
+  updateCarSchema,
+  deleteCarSchema,
+  updateCarStatusToPendingSchema,
+  getCarByIdSchema,
+} = require("../validations/car.validation"); 
 
-// Create a new car record
-router.post('/', protect, uploadFileMiddleware, carController.createCar);
-
-// Update an existing car record
-router.put('/:id', protect, uploadFileMiddleware, carController.updateCar);
-
-// Update car status to pending (admin only)
-router.put('status/:id', protect, carController.updateCarStatusToPending);
-
-// Delete a car record
-router.delete('/:id', protect, carController.deleteCar);
-
-// View all cars
-router.get('/',  carController.getAllCars); // Ensure this is the only instance 
-// Get cars by user ID
+router.post('/', protect, uploadFileMiddleware, validate(createCarSchema), carController.createCar);
+router.put('/:id', protect, uploadFileMiddleware, validate(updateCarSchema), carController.updateCar);
+router.put('/status/:id', protect, validate(updateCarStatusToPendingSchema), carController.updateCarStatusToPending);
+router.delete('/:id', protect, validate(deleteCarSchema), carController.deleteCar);
+router.get('/', carController.getAllCars);
 router.get('/user', protect, carController.getCarsByUserId);
-
-// Get a car by ID
-router.get('/:id',  carController.getCarById);
-
+router.get('/:id', validate(getCarByIdSchema), carController.getCarById);
 
 module.exports = router;

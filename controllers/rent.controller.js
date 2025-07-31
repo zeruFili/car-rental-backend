@@ -1,301 +1,125 @@
-const Rental = require("../models/rental.model.js"); // Require the Rental model
-const Car = require("../models/car.model.js"); // Require the Car model
-const User = require("../models/user.model.js"); // Require the User model
-const request = require("request"); // Import for making HTTP requests
+const RentalService = require("../services/rental.service"); // Adjust the path as necessary
+const catchAsync = require("../utils/catchAsync"); // Adjust the path as necessary
 
-exports.createRental = async (req, res) => {
-  try {
-    const { carId, startDate, endDate } = req.body; // Take rental details from the request body
-    const userId = req.user._id; // Get user ID from the request
-    // Validate carId
-    if (!carId) {
-      return res.status(400).json({ error: "Car ID is required" });
-    }
+// Create a rental
+exports.createRental = catchAsync(async (req, res) => {
+  const { carId, startDate, endDate } = req.body; // Take rental details from the request body
+  const userId = req.user._id; // Get user ID from the request
 
-    // Check if the car exists
-    const car = await Car.findById(carId);
-    if (!car) {
-      return res.status(404).json({ error: "Car not found" });
-    }
-
-    // Fetch user details
-    const user = await User.findById(userId);
-    
-    if (!user) {
-      return res.status(404).json({ error: "User not found" });
-    }
-
-    // Calculate total price based on pricePerDay and rental duration
-    const pricePerDay = parseFloat(car.pricePerDay);
-    const rentalDays = (new Date(endDate) - new Date(startDate)) / (1000 * 3600 * 24);
-    const totalPrice = pricePerDay * rentalDays;
-
-    // Generate transaction reference
-    const tx_ref = `tx_${Date.now()}`; // Simple transaction reference
-
-    // Initialize the transaction with Chapa
-    const options = {
-      method: 'POST',
-      url: 'https://api.chapa.co/v1/transaction/initialize',
-      headers: {
-        'Authorization': `Bearer ${process.env.CHAPA_SECRET_KEY}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        amount: (totalPrice).toString(), 
-        currency: 'ETB',
-        email: user.email,
-        first_name: user.first_name,
-        last_name: user.last_name,
-        phone_number: user.phone_number,
-        tx_ref: tx_ref,
-        callback_url: `http://localhost:3002/api/payment/verify/${tx_ref}`, // Adjust as needed
-        meta: {
-          carId: carId,
-          startDate: startDate,
-          endDate: endDate,
-          hide_receipt: true,
-        },
-      }),
-    };
-
-    // Make the request to Chapa
-    request(options, async function (error, response) {
-      if (error) {
-        console.error('Payment processing error:', error);
-        return res.status(500).json({ msg: 'An unexpected error occurred', details: error });
-      }
-
-      const body = JSON.parse(response.body);
-      if (response.statusCode === 200 && body.status === 'success') {
-        // Create rental document after successful payment initialization
-        const rental = new Rental({
-          car: carId,
-          user: userId,
-          owner: car.owner, // Assuming car.owner is available
-          startDate,
-          endDate,
-          totalPrice,
-          payment: {
-            amount: totalPrice,
-            currency: 'ETB',
-            transactionId: tx_ref,
-          },
-        });
-
-        await rental.save();
-        res.status(200).json({
-          msg: "Order created successfully. Perform payment.",
-          paymentUrl: body.data.checkout_url,
-        });
-      } else {
-        res.status(500).json({
-          msg: body.message || "Something went wrong",
-        });
-      }
-    });
-  } catch (error) {
-    console.error("Error processing checkout:", error);
-    res.status(500).json({ message: "Error processing checkout", error: error.message });
+  if (!carId) {
+    return res.status(400).json({ error: "Car ID is required" });
   }
-};
 
-exports.getAllRentals = async (req, res) => {
-  try {
-    const rentals = await Rental.find()
-      .populate({
-        path: 'car user owner',
-        select: 'first_name last_name phone_number', // Select only the desired fields
-      });
-    res.status(200).json(rentals);
-  } catch (error) {
-    res.status(400).json({ message: error.message });
+  const rental = await RentalService.createRental(carId, startDate, endDate, userId);
+  res.status(200).json({
+    msg: "Order created successfully. Perform payment.",
+    paymentUrl: rental.paymentUrl,
+  });
+});
+
+// Get all rentals
+exports.getAllRentals = catchAsync(async (req, res) => {
+  const rentals = await RentalService.getAllRentals();
+  res.status(200).json(rentals);
+});
+
+// Get a rental by ID
+exports.getRentalById = catchAsync(async (req, res) => {
+  const { id } = req.body; // Get rental ID from the request body
+  const rental = await RentalService.getRentalById(id);
+
+  if (!rental) {
+    return res.status(404).json({ message: 'Rental not found.' });
   }
-};
+  res.status(200).json(rental);
+});
 
-exports.getRentalById = async (req, res) => {
-  try {
-    const { id } = req.body; // Get rental ID from the request body
-    const rental = await Rental.findById(id).populate({
-      path: 'car user owner',
-      select: 'first_name last_name phone_number', // Select only the desired fields
-    });
-    if (!rental) {
-      return res.status(404).json({ message: 'Rental not found.' });
-    }
-    res.status(200).json(rental);
-  } catch (error) {
-    res.status(400).json({ message: error.message });
+// Get rentals by owner
+exports.getRentalsByOwner = catchAsync(async (req, res) => {
+  const ownerId = req.user._id; // Get owner ID from the authenticated user
+  const rentals = await RentalService.getRentalsByOwner(ownerId);
+
+  if (!rentals.length) {
+    return res.status(404).json({ message: 'No rentals found for this owner.' });
   }
-};
 
+  const rentalDetails = rentals.map(rental => ({
+    car: {
+      make: rental.car.make,
+      model: rental.car.model,
+      photo: rental.car.photos[0],
+    },
+    renter: {
+      name: `${rental.user.first_name} ${rental.user.last_name}`,
+      phone: rental.user.phone_number,
+    },
+    rental: {
+      _id: rental._id,
+      startDate: rental.startDate,
+      endDate: rental.endDate,
+      totalPrice: rental.totalPrice,
+      viewed: rental.viewed,
+    },
+  }));
 
+  res.status(200).json(rentalDetails);
+});
 
-exports.getRentalsByOwner = async (req, res) => {
-  try {
-    const ownerId = req.user._id; // Get owner ID from the authenticated user
-    const rentals = await Rental.find({ owner: ownerId })
-      .populate('car')
-      .populate('user');
+// Get rentals by renter
+exports.getRentalsByRenter = catchAsync(async (req, res) => {
+  const renterId = req.user._id; // Get the renter ID from the authenticated user
+  const rentals = await RentalService.getRentalsByRenter(renterId);
 
-    if (!rentals.length) {
-      return res.status(404).json({ message: 'No rentals found for this owner.' });
-    }
-
-    const rentalDetails = rentals.map(rental => {
-      const car = rental.car;
-      const user = rental.user;
-      const _id = rental._id;
-
-      // Extract details
-      const carMake = car.make;
-      const carModel = car.model;
-      const carPhoto = car.photos[0]; // Get the first photo
-      const renterName = `${user.first_name} ${user.last_name}`;
-      const renterPhone = user.phone_number;
-      const startDate = rental.startDate;
-      const endDate = rental.endDate;
-      const totalPrice = rental.totalPrice; // Assuming totalPrice is already calculated in the rental
-      const viewed = rental.viewed;
-
-      return {
-        car: {
-          make: carMake,
-          model: carModel,
-          photo: carPhoto,
-        },
-        renter: {
-          name: renterName,
-          phone: renterPhone,
-        },
-        rental: {
-          _id,
-          startDate,
-          endDate,
-          totalPrice,
-          viewed
-        }
-      };
-    });
-
-    // Respond with the gathered information
-    res.status(200).json(rentalDetails);
-  } catch (error) {
-    res.status(400).json({ message: error.message });
+  if (!rentals.length) {
+    return res.status(404).json({ message: 'No rentals found for this renter.' });
   }
-};
 
-exports.getRentalsByRenter = async (req, res) => {
-  try {
-    const renterId = req.user._id; // Get the renter ID from the authenticated user
-    const rentals = await Rental.find({ user: renterId })
-      .populate('car')
-      .populate('owner');
+  const rentalDetails = rentals.map(rental => ({
+    car: {
+      make: rental.car.make,
+      model: rental.car.model,
+      photo: rental.car.photos[0],
+    },
+    owner: {
+      name: `${rental.owner.first_name} ${rental.owner.last_name}`,
+      phone: rental.owner.phone_number,
+    },
+    rental: {
+      _id: rental._id,
+      startDate: rental.startDate,
+      endDate: rental.endDate,
+      rentalDays: (new Date(rental.endDate) - new Date(rental.startDate)) / (1000 * 3600 * 24),
+      totalPrice: rental.totalPrice,
+    },
+  }));
 
-    if (!rentals.length) {
-      return res.status(404).json({ message: 'No rentals found for this renter.' });
-    }
+  res.status(200).json(rentalDetails);
+});
 
-    const rentalDetails = rentals.map(rental => {
-      const car = rental.car;
-      const owner = rental.owner;
-      const _id = rental._id;
+// Get future rentals for a car
+exports.getFutureRentalsForCar = catchAsync(async (req, res) => {
+  const { carId } = req.query; // Get the car ID from request query
+  const futureRentals = await RentalService.getFutureRentalsForCar(carId);
 
-      // Extract details
-      const carMake = car.make;
-      const carModel = car.model;
-      const carPhoto = car.photos[0]; // Get the first photo
-      const ownerName = `${owner.first_name} ${owner.last_name}`;
-      const startDate = rental.startDate;
-      const endDate = rental.endDate;
-      
+  res.status(200).json({
+    message: futureRentals.length ? "Future rentals found." : "No future rentals for this car.",
+    rentals: futureRentals,
+  });
+});
 
-      // Calculate the number of rental days
-      const rentalDays = (new Date(endDate) - new Date(startDate)) / (1000 * 3600 * 24);
-      const totalPrice = rental.totalPrice; // Assuming totalPrice is already calculated in the rental
+// Update viewed status
+exports.updateViewedStatus = catchAsync(async (req, res) => {
+  const { rentalId } = req.body; // Get rental ID from the request body
+  const userId = req.user._id; // Get user ID from the authenticated user
 
-      return {
-        car: {
-          make: carMake,
-          model: carModel,
-          photo: carPhoto,
-        },
-        owner: {
-          name: ownerName,
-          phone: owner.phone_number,
-        },
-        rental: {
-          _id,
-          startDate,
-          endDate,
-          rentalDays,
-          totalPrice
-        }
-      };
-    });
-
-    // Respond with the gathered information
-    res.status(200).json(rentalDetails);
-  } catch (error) {
-    res.status(400).json({ message: error.message });
+  if (!rentalId) {
+    return res.status(400).json({ error: "Rental ID is required" });
   }
-};
 
-exports.getFutureRentalsForCar = async (req, res) => {
-  try {
-    const { carId } = req.query; // Get the car ID from request body
-    const today = new Date(); // Get today's date
-    today.setHours(0, 0, 0, 0); // Set time to midnight for accurate comparison
+  const rental = await RentalService.updateViewedStatus(rentalId, userId);
 
-    // Find rentals for the specified car that start on or after today
-    const futureRentals = await Rental.find({
-      car: carId,
-      startDate: { $gte: today } // Filter rentals starting today or in the future
-    }).select('startDate endDate'); // Select only the startDate and endDate fields
-
-    // Return rentals or a message indicating no future rentals
-    console.log("Future rentals:",futureRentals);
-    res.status(200).json({
-      message: futureRentals.length ? "Future rentals found." : "No future rentals for this car.",
-      rentals: futureRentals
-    });
-  } catch (error) {
-    res.status(400).json({ message: error.message });
-  }
-};
-
-
-exports.updateViewedStatus = async (req, res) => {
-  try {
-    const { rentalId } = req.body; // Get rental ID from the request body
-    const userId = req.user._id; // Get user ID from the authenticated user
-
-    // Validate rentalId
-    if (!rentalId) {
-      return res.status(400).json({ error: "Rental ID is required" });
-    }
-
-    // Find the rental by ID
-    const rental = await Rental.findById(rentalId);
-    if (!rental) {
-      return res.status(404).json({ message: 'Rental not found.' });
-    }
-
-    // Check if the user is the owner of the rental
-    if (!rental.owner.equals(userId)) {
-      return res.status(403).json({ message: 'You are not authorized to update this rental.' });
-    }
-
-    // Update the viewed status
-    rental.viewed = true;
-    await rental.save();
-
-    res.status(200).json({
-      message: 'Rental viewed status updated successfully.',
-      rental,
-    });
-  } catch (error) {
-    console.error("Error updating viewed status:", error);
-    res.status(400).json({ message: error.message });
-  }
-};
+  res.status(200).json({
+    message: 'Rental viewed status updated successfully.',
+    rental,
+  });
+});

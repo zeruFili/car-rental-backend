@@ -1,29 +1,27 @@
 const express = require('express');
 const router = express.Router();
-const rentalController = require('../controllers/rent.controller'); // Adjust the path as necessary
-const { protect, adminValidator } = require('../middleware/authMiddleware'); // Middleware to protect routes
+const rentalController = require('../controllers/rent.controller'); 
+const { protect, adminValidator } = require('../middleware/authMiddleware'); 
+const validate = require("../middleware/validate"); 
+const {
+  createRentalSchema,
+  getRentalByIdSchema,
+  updateViewedStatusSchema,
+  getFutureRentalsForCarSchema
+} = require("../validations/rental.validation"); 
 
-// Create a new rental record
-router.post('/', protect, rentalController.createRental);
+router.post('/', protect, validate(createRentalSchema), rentalController.createRental);
 
-// View all rentals (admin only)
 router.get('/', protect, adminValidator, rentalController.getAllRentals);
 
+router.get('/future', validate(getFutureRentalsForCarSchema), rentalController.getFutureRentalsForCar);
 
-router.get('/future',  rentalController.getFutureRentalsForCar);
-
-// Get rentals by the owner
 router.get('/owner', protect, rentalController.getRentalsByOwner);
 
-// Get rentals by the renter
 router.get('/renter', protect, rentalController.getRentalsByRenter);
 
-// Get a rental by ID
-// router.get('/future/:id', protect, rentalController.getRentalById);
+router.get('/:id', validate(getRentalByIdSchema), rentalController.getRentalById);
 
-// Get future rentals for a specific car
-router.get('/future', protect, rentalController.getFutureRentalsForCar);
-
-router.patch('/updateview', protect, rentalController.updateViewedStatus);
+router.patch('/updateview', protect, validate(updateViewedStatusSchema), rentalController.updateViewedStatus);
 
 module.exports = router;
