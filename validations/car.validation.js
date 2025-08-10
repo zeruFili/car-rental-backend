@@ -30,6 +30,7 @@ const updateCarSchema = {
     year: joi.number().integer().min(1886).optional(), // Year must be a valid year
     pricePerDay: joi.number().positive().optional(), // Price per day must be a positive number
     description: joi.string().optional(), // Description is optional
+    keepExistingPhotos: joi.string().optional(),
     // Additional fields can be added here as needed
   }).min(1), // At least one field must be provided for update
 };
@@ -61,3 +62,4 @@ module.exports = {
   updateCarStatusToPendingSchema,
   getCarsByUserIdSchema,
 };
+

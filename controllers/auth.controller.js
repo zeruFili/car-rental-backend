@@ -15,7 +15,7 @@ const refreshAccessToken = catchAsync(async (req, res) => {
         return res.status(401).json({ message: "No refresh token provided" });
     }
 
-    // Verify refresh token
+    // Verify refresh token 
     const decoded = jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET);
     const user = await User.findById(decoded.userId);
 
@@ -26,6 +26,7 @@ const refreshAccessToken = catchAsync(async (req, res) => {
 
     // Generate a new access token
     const { accessToken } = generateTokens(user._id);
+    console.log("access token " , accessToken)
     
     // Send the new access token in response
     res.json({ accessToken });

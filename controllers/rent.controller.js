@@ -43,11 +43,13 @@ exports.getRentalsByOwner = catchAsync(async (req, res) => {
     return res.status(404).json({ message: 'No rentals found for this owner.' });
   }
 
+  const serverBaseUrl = `${req.protocol}://${req.get('host')}`;
+
   const rentalDetails = rentals.map(rental => ({
     car: {
       make: rental.car.make,
       model: rental.car.model,
-      photo: rental.car.photos[0],
+      photo: `${serverBaseUrl}/uploads/${rental.car.photos[0]}`, // Full URL for the car photo
     },
     renter: {
       name: `${rental.user.first_name} ${rental.user.last_name}`,
@@ -74,11 +76,13 @@ exports.getRentalsByRenter = catchAsync(async (req, res) => {
     return res.status(404).json({ message: 'No rentals found for this renter.' });
   }
 
+  const serverBaseUrl = `${req.protocol}://${req.get('host')}`;
+
   const rentalDetails = rentals.map(rental => ({
     car: {
       make: rental.car.make,
       model: rental.car.model,
-      photo: rental.car.photos[0],
+      photo: `${serverBaseUrl}/uploads/${rental.car.photos[0]}`, // Full URL for the car photo
     },
     owner: {
       name: `${rental.owner.first_name} ${rental.owner.last_name}`,

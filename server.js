@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors'); // Import the cors package
 const app = express();
+const path = require('path');
 const authRouter = require('./routes/auth.route');
 const carRouter = require('./routes/car.route');
 const rentRouter = require('./routes/rent.route');
@@ -30,6 +31,7 @@ app.use(cookieParser());
 app.use('/api/user', authRouter);
 app.use('/api/cars', carRouter);
 app.use('/api/rentals', rentRouter);
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Handle unknown routes
 app.use((req, res, next) => {
