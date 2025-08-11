@@ -1,8 +1,6 @@
 const multer = require("multer");
 const sharp = require("sharp");
 const path = require("path");
-const httpStatus = require("http-status").defaults;
-const ApiError = require('../utils/ApiError');
 const catchAsync = require("../utils/catchAsync");
 
 const upload = multer({
@@ -28,11 +26,7 @@ const uploadFileMiddleware = catchAsync(async (req, res, next) => {
       return res.status(400).json({ error: `Error: ${err}` });
     }
 
-    if (!req.files || req.files.length === 0) {
-      throw new ApiError(httpStatus.NOT_FOUND, 'No files uploaded');
-    }
-
-    const uploadedFiles = req.files;
+    const uploadedFiles = req.files || []; // Ensure it defaults to an empty array if no files are uploaded
     const processedFileNames = [];
 
     for (const file of uploadedFiles) {
@@ -59,12 +53,7 @@ const uploadFileMiddleware = catchAsync(async (req, res, next) => {
       }
     }
 
-    if (processedFileNames.length === 0) {
-      return res.status(httpStatus.INTERNAL_SERVER_ERROR).json({
-        message: 'No files were successfully processed.',
-      });
-    }
-
+    // If no files were processed, simply call next() without an error
     req.processedFiles = processedFileNames; // Pass processed file names to the request object
     next(); // Call the next middleware or controller
   });

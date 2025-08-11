@@ -70,9 +70,51 @@ exports.getCarById = catchAsync(async (req, res) => {
 });
 
 // Update a car
+// exports.updateCar = catchAsync(async (req, res) => {
+//   const car = await CarService.updateCar(req.params.id, req.body, req.files, req.user._id);
+//   res.status(200).json({ message: "Car updated successfully", car });
+// });
+
 exports.updateCar = catchAsync(async (req, res) => {
-  const car = await CarService.updateCar(req.params.id, req.body, req.files, req.user._id);
-  res.status(200).json({ message: "Car updated successfully", car });
+    const carId = req.params.id;
+    const carDetails = req.body;
+    const files = req.processedFiles;
+    const userId = req.user._id;
+
+    const car = await Car.findById(carId);
+    
+    if (!car) {
+        throw new Error("Car not found");
+    }
+    
+    if (!car.owner.equals(userId)) {
+        throw new Error("You do not have permission to update this car");
+    }
+
+    Object.assign(car, carDetails);
+    let finalPhotos = [];
+
+    if (carDetails.keepExistingPhotos) {
+        const existingPhotosToKeep = carDetails.keepExistingPhotos.split(",")
+            .map((photo) => photo.trim())
+            .filter((photo) => photo !== "");
+        
+        finalPhotos = [...existingPhotosToKeep];
+        console.log("Existing Photos to Keep:", existingPhotosToKeep);
+        console.log("Final Photos:", finalPhotos);
+    }
+
+if (files && files.length > 0) {
+    console.log("Files:", files);
+    const newPhotos = files.filter((file) => file); // No need to check for filename since it's a string
+    console.log("New Photos:", newPhotos);
+    finalPhotos = [...finalPhotos, ...newPhotos];
+    console.log("Final Photos:", finalPhotos);
+}
+    car.photos = finalPhotos.length > 0 ? finalPhotos : car.photos;
+
+    await car.save();
+    res.status(200).json({ message: "Car updated successfully", car });
 });
 
 // Delete a car
