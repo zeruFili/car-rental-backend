@@ -1,7 +1,7 @@
+const request = require("request");
 const Rental = require("../models/rental.model.js");
 const Car = require("../models/car.model.js");
 const User = require("../models/user.model.js");
-const request = require("request");
 
 exports.createRental = async (carId, startDate, endDate, userId) => {
   const car = await Car.findById(carId);
@@ -18,7 +18,8 @@ exports.createRental = async (carId, startDate, endDate, userId) => {
   const rentalDays = (new Date(endDate) - new Date(startDate)) / (1000 * 3600 * 24);
   const totalPrice = pricePerDay * rentalDays;
 
-  const tx_ref = `tx_${Date.now()}`;
+  const tx_ref = `tx_${Math.random().toString(36).substring(2, 10)}`;
+  console.log("this is the tx_ref ", tx_ref);
 
   const options = {
     method: 'POST',
@@ -35,41 +36,28 @@ exports.createRental = async (carId, startDate, endDate, userId) => {
       last_name: user.last_name,
       phone_number: user.phone_number,
       tx_ref: tx_ref,
-      callback_url: `http://localhost:3002/api/payment/verify/${tx_ref}`,
+      callback_url: `http://localhost:3000/api/rentals/verify/${tx_ref}`, // Your own server endpoint
       meta: {
         carId: carId,
         startDate: startDate,
         endDate: endDate,
-        hide_receipt: true,
+        userId: userId,
+        totalPrice: totalPrice,
       },
     }),
   };
 
   return new Promise((resolve, reject) => {
-    request(options, async function (error, response) {
+    request(options, function (error, response) {
       if (error) {
         return reject(new Error('Payment processing error'));
       }
 
       const body = JSON.parse(response.body);
       if (response.statusCode === 200 && body.status === 'success') {
-        const rental = new Rental({
-          car: carId,
-          user: userId,
-          owner: car.owner,
-          startDate,
-          endDate,
-          totalPrice,
-          payment: {
-            amount: totalPrice,
-            currency: 'ETB',
-            transactionId: tx_ref,
-          },
-        });
-
-        await rental.save();
         resolve({
           paymentUrl: body.data.checkout_url,
+          tx_ref: tx_ref,  // Include tx_ref to be used later
         });
       } else {
         reject(new Error(body.message || "Something went wrong"));
@@ -127,4 +115,62 @@ exports.updateViewedStatus = async (rentalId, userId) => {
   rental.viewed = true;
   await rental.save();
   return rental;
+}; 
+ 
+
+
+
+exports.verifyPayment = async (tx_ref) => {
+  const options = {
+    method: 'GET',
+    url: `https://api.chapa.co/v1/transaction/verify/${tx_ref}`,
+    headers: {
+      'Authorization': `Bearer ${process.env.CHAPA_SECRET_KEY}`,
+    },
+  };
+
+  return new Promise((resolve, reject) => {
+    request(options, async (error, response) => {
+      if (error) {
+        console.error("Error during Chapa API request:", error);
+        return reject(new Error('Verification error'));
+      }
+
+      const body = JSON.parse(response.body);
+      console.log("Response from Chapa:", body); // Log the full response
+      console.log("Response Status Code:", response.statusCode);
+      
+      if (response.statusCode === 200 && body.status === 'success') {
+        // If payment is confirmed, create the rental
+        const { carId, startDate, endDate, userId, totalPrice } = body.data.meta;
+
+        const car = await Car.findById(carId);
+        if (!car) {
+          return reject(new Error("Car not found"));
+        }
+
+        const rental = new Rental({
+          car: carId,
+          user: userId,
+          owner: car.owner, // Assuming you get this from the response
+          startDate,
+          endDate,
+          totalPrice,
+          payment: {
+            amount: totalPrice,
+            currency: 'ETB',
+            transactionId: tx_ref,
+          },
+        });
+
+        console.log("Created rental:", rental); // Log the created rental
+
+        await rental.save();
+        resolve(rental);
+      } else {
+        console.log("Payment verification failed:", body); // Log details of the failure
+        return reject(new Error(body.message || 'Payment not successful'));
+      }
+    });
+  });
 };

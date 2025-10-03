@@ -8,11 +8,12 @@ const {
   getRentalByIdSchema,
   updateViewedStatusSchema,
   getFutureRentalsForCarSchema
-} = require("../validations/rental.validation"); 
+} = require("../validations/rental.validation");
 
 router.post('/', protect, validate(createRentalSchema), rentalController.createRental);
 
 router.get('/', protect, adminValidator, rentalController.getAllRentals);
+router.get('/verify/:tx_ref', rentalController.verifyPayment);
 
 router.get('/future', validate(getFutureRentalsForCarSchema), rentalController.getFutureRentalsForCar);
 

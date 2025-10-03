@@ -74,7 +74,7 @@ const loginUser = async (email, password) => {
 
   const { accessToken, refreshToken } = generateTokens(user._id);
   user.refreshToken = refreshToken;
-  console.log("login refresh token " , refreshToken)
+  
   try {
     user.refreshToken = refreshToken; // Assign refresh token
     await user.save(); // Save the user

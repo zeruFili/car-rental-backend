@@ -46,6 +46,7 @@ const signup = catchAsync(async (req, res) => {
       first_name: user.first_name,
       last_name: user.last_name,
       email: user.email,
+      phone_number: user.phone_number,
       role: user.role,
     },
   });
@@ -76,10 +77,7 @@ const login = catchAsync(async (req, res) => {
 
   // Attempt to log in the user and get user info and tokens
   const { user, accessToken, refreshToken } = await authService.loginUser(email, password);
-  const userrefresh = user.refreshToken ;
-
-  console.log("login sending refresh token " , refreshToken)
-  console.log("users refresh token " , userrefresh) 
+  const userrefresh = user.refreshToken ; 
 
   // Set cookies with tokens
   setCookies(res, accessToken, refreshToken);

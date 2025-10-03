@@ -67,7 +67,7 @@ exports.getRentalsByOwner = catchAsync(async (req, res) => {
   res.status(200).json(rentalDetails);
 });
 
-// Get rentals by renter
+
 exports.getRentalsByRenter = catchAsync(async (req, res) => {
   const renterId = req.user._id; // Get the renter ID from the authenticated user
   const rentals = await RentalService.getRentalsByRenter(renterId);
@@ -82,7 +82,7 @@ exports.getRentalsByRenter = catchAsync(async (req, res) => {
     car: {
       make: rental.car.make,
       model: rental.car.model,
-      photo: `${serverBaseUrl}/uploads/${rental.car.photos[0]}`, // Full URL for the car photo
+      photo: `${serverBaseUrl}/uploads/${rental.car.photos[0]}`,
     },
     owner: {
       name: `${rental.owner.first_name} ${rental.owner.last_name}`,
@@ -100,9 +100,9 @@ exports.getRentalsByRenter = catchAsync(async (req, res) => {
   res.status(200).json(rentalDetails);
 });
 
-// Get future rentals for a car
+
 exports.getFutureRentalsForCar = catchAsync(async (req, res) => {
-  const { carId } = req.query; // Get the car ID from request query
+  const { carId } = req.query;
   const futureRentals = await RentalService.getFutureRentalsForCar(carId);
 
   res.status(200).json({
@@ -111,10 +111,10 @@ exports.getFutureRentalsForCar = catchAsync(async (req, res) => {
   });
 });
 
-// Update viewed status
+
 exports.updateViewedStatus = catchAsync(async (req, res) => {
-  const { rentalId } = req.body; // Get rental ID from the request body
-  const userId = req.user._id; // Get user ID from the authenticated user
+  const { rentalId } = req.body; 
+  const userId = req.user._id; 
 
   if (!rentalId) {
     return res.status(400).json({ error: "Rental ID is required" });
@@ -126,4 +126,13 @@ exports.updateViewedStatus = catchAsync(async (req, res) => {
     message: 'Rental viewed status updated successfully.',
     rental,
   });
+});
+
+
+exports.verifyPayment = catchAsync(async (req, res) => {
+  const { tx_ref } = req.params;
+
+  const result = await RentalService.verifyPayment(tx_ref);
+
+  return res.status(200).json({ message: 'Payment verified and rental created', rental: result });
 });
