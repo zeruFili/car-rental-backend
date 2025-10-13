@@ -37280,3 +37280,7 @@ remote-addr - GET /api/rentals/future?carId=68651cd290e4ac9b7753d8d8 304 9.411 m
 remote-addr - POST /api/rentals 200 2910.643 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Mon, 13 Oct 2025 09:10:12 GMT
 remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 200 322.537 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Mon, 13 Oct 2025 09:30:24 GMT
 remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 304 9.641 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Mon, 13 Oct 2025 09:30:24 GMT
+remote-addr - GET /api/rentals/future?carId=68651bce3c4e4878692c52fa 304 156.372 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Mon, 13 Oct 2025 09:54:05 GMT
+remote-addr - POST /api/rentals 401 86.376 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36  Mon, 13 Oct 2025 09:54:06 GMT -error-message: -
+remote-addr - POST /api/user/refresh-token 200 56.965 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Mon, 13 Oct 2025 09:54:06 GMT
+remote-addr - POST /api/rentals 200 2740.783 ms Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Mon, 13 Oct 2025 09:54:09 GMT

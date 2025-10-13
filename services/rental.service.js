@@ -14,9 +14,9 @@ exports.createRental = async (carId, startDate, endDate, userId) => {
     throw new Error("User not found");
   }
 
-  const pricePerDay = parseFloat(car.pricePerDay);
-  const rentalDays = (new Date(endDate) - new Date(startDate)) / (1000 * 3600 * 24);
-  const totalPrice = pricePerDay * rentalDays;
+ const pricePerDay = parseFloat(car.pricePerDay);
+const rentalDays = Math.ceil((new Date(endDate) - new Date(startDate)) / (1000 * 3600 * 24)) + 1; // Include start day
+const totalPrice = pricePerDay * rentalDays;
 
   const tx_ref = `tx_${Math.random().toString(36).substring(2, 10)}`;
   console.log("this is the tx_ref ", tx_ref);
