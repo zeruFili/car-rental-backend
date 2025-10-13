@@ -1,6 +1,5 @@
 const joi = require('joi');
 
-
 const createRentalSchema = {
   body: joi.object().keys({
     carId: joi.string().required(), // Car ID is required
@@ -16,11 +15,17 @@ const getRentalByIdSchema = {
   }),
 };
 
-// Schema for updating viewed status
-const updateViewedStatusSchema = {
+// Schema for updating owner viewed status
+const updateOwnerViewedStatusSchema = {
   body: joi.object().keys({
     rentalId: joi.string().required(), // Rental ID is required
-    viewed: joi.boolean().required(),
+  }),
+};
+
+// Schema for updating renter viewed status
+const updateRenterViewedStatusSchema = {
+  body: joi.object().keys({
+    rentalId: joi.string().required(), // Rental ID is required
   }),
 };
 
@@ -31,12 +36,10 @@ const getFutureRentalsForCarSchema = {
   }),
 };
 
-
-
-
 module.exports = {
   createRentalSchema,
   getRentalByIdSchema,
-  updateViewedStatusSchema,
+  updateOwnerViewedStatusSchema,
+  updateRenterViewedStatusSchema,
   getFutureRentalsForCarSchema
 };

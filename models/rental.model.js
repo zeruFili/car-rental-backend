@@ -16,7 +16,11 @@ const rentalSchema = new mongoose.Schema({
     ref: 'User',
     required: true
   },
-  viewed: {
+  renterViewed: {
+    type: Boolean,
+    default: false
+  },
+  ownerViewed: {
     type: Boolean,
     default: false
   },

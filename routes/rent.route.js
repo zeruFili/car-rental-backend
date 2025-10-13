@@ -6,7 +6,8 @@ const validate = require("../middleware/validate");
 const {
   createRentalSchema,
   getRentalByIdSchema,
-  updateViewedStatusSchema,
+  updateOwnerViewedStatusSchema,
+  updateRenterViewedStatusSchema,
   getFutureRentalsForCarSchema
 } = require("../validations/rental.validation");
 
@@ -23,6 +24,8 @@ router.get('/renter', protect, rentalController.getRentalsByRenter);
 
 router.get('/:id', validate(getRentalByIdSchema), rentalController.getRentalById);
 
-router.patch('/updateview', protect, validate(updateViewedStatusSchema), rentalController.updateViewedStatus);
+router.patch('/update-owner-viewed', protect, validate(updateOwnerViewedStatusSchema), rentalController.updateOwnerViewedStatus);
+
+router.patch('/update-renter-viewed', protect, validate(updateRenterViewedStatusSchema), rentalController.updateRenterViewedStatus);
 
 module.exports = router;

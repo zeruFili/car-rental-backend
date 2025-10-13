@@ -36,7 +36,7 @@ exports.createRental = async (carId, startDate, endDate, userId) => {
       last_name: user.last_name,
       phone_number: user.phone_number,
       tx_ref: tx_ref,
-      callback_url: `http://localhost:3000/api/rentals/verify/${tx_ref}`, // Your own server endpoint
+      callback_url: `http://localhost:3000/api/rentals/verify/${tx_ref}`,
       meta: {
         carId: carId,
         startDate: startDate,
@@ -48,17 +48,22 @@ exports.createRental = async (carId, startDate, endDate, userId) => {
   };
 
   return new Promise((resolve, reject) => {
-    request(options, function (error, response) {
+    request(options, async function (error, response) {
       if (error) {
         return reject(new Error('Payment processing error'));
       }
 
       const body = JSON.parse(response.body);
+      console.log("Response from Chapa:", body);
       if (response.statusCode === 200 && body.status === 'success') {
-        resolve({
-          paymentUrl: body.data.checkout_url,
-          tx_ref: tx_ref,  // Include tx_ref to be used later
-        });
+        try {
+          resolve({
+            paymentUrl: body.data.checkout_url,
+            tx_ref: tx_ref
+          });
+        } catch (verificationError) {
+          reject(verificationError);
+        }
       } else {
         reject(new Error(body.message || "Something went wrong"));
       }
@@ -102,23 +107,35 @@ exports.getFutureRentalsForCar = async (carId) => {
   }).select('startDate endDate');
 };
 
-exports.updateViewedStatus = async (rentalId, userId) => {
+exports.updateOwnerViewedStatus = async (rentalId, userId) => {
   const rental = await Rental.findById(rentalId);
   if (!rental) {
     throw new Error('Rental not found.');
   }
 
   if (!rental.owner.equals(userId)) {
-    throw new Error('You are not authorized to update this rental.');
+    throw new Error('You are not authorized to update owner viewed status for this rental.');
   }
 
-  rental.viewed = true;
+  rental.ownerViewed = true;
   await rental.save();
   return rental;
-}; 
- 
+};
 
+exports.updateRenterViewedStatus = async (rentalId, userId) => {
+  const rental = await Rental.findById(rentalId);
+  if (!rental) {
+    throw new Error('Rental not found.');
+  }
 
+  if (!rental.user.equals(userId)) {
+    throw new Error('You are not authorized to update renter viewed status for this rental.');
+  }
+
+  rental.renterViewed = true;
+  await rental.save();
+  return rental;
+};
 
 exports.verifyPayment = async (tx_ref) => {
   const options = {
@@ -137,11 +154,10 @@ exports.verifyPayment = async (tx_ref) => {
       }
 
       const body = JSON.parse(response.body);
-      console.log("Response from Chapa:", body); // Log the full response
+      console.log("Response from Chapa in verify payment:", body);
       console.log("Response Status Code:", response.statusCode);
       
-      if (response.statusCode === 200 && body.status === 'success') {
-        // If payment is confirmed, create the rental
+      if (response.statusCode === 200 && body.data.status === 'success') {
         const { carId, startDate, endDate, userId, totalPrice } = body.data.meta;
 
         const car = await Car.findById(carId);
@@ -152,10 +168,12 @@ exports.verifyPayment = async (tx_ref) => {
         const rental = new Rental({
           car: carId,
           user: userId,
-          owner: car.owner, // Assuming you get this from the response
+          owner: car.owner,
           startDate,
           endDate,
           totalPrice,
+          ownerViewed: false,
+          renterViewed: false,
           payment: {
             amount: totalPrice,
             currency: 'ETB',
@@ -163,12 +181,11 @@ exports.verifyPayment = async (tx_ref) => {
           },
         });
 
-        console.log("Created rental:", rental); // Log the created rental
-
+        console.log("Created rental:", rental);
         await rental.save();
         resolve(rental);
       } else {
-        console.log("Payment verification failed:", body); // Log details of the failure
+        console.log("Payment verification failed:", body);
         return reject(new Error(body.message || 'Payment not successful'));
       }
     });
